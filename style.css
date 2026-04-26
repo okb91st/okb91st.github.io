@@ -22,15 +22,21 @@ body {
     color: #ffd700;
 }
 
+.nav a.active {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
 .content {
     text-align: center;
-    padding-top: 100px;
+    padding: 60px 20px;
 }
 
 .box {
     border: 1px solid #d4af37;
     padding: 20px;
     width: 60%;
+    max-width: 900px;
     margin: 40px auto;
 }
 
@@ -46,6 +52,7 @@ p {
     margin: 30px auto;
     padding: 20px;
     width: 60%;
+    max-width: 900px;
     text-align: left;
 }
 
