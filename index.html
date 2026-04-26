@@ -6,16 +6,61 @@
         body {
             background-color: black;
             color: red;
-            text-align: center;
             font-family: Arial;
+            margin: 0;
+        }
+
+        /* 顶部导航栏 */
+        .nav {
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid red;
+        }
+
+        .nav a {
+            color: red;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* 主体 */
+        .content {
+            text-align: center;
             padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            color: #ccc;
         }
     </style>
 </head>
 
 <body>
-    <h1>第91设计局</h1>
-    <p>Design Bureau No.91</p>
-    <p>System Status: ONLINE</p>
+
+    <!-- 导航栏 -->
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="archives.html">Archives</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <!-- 内容 -->
+    <div class="content">
+        <h1>共和国联盟第91设计局</h1>
+        <p>OKB-91</p>
+        <p>System Status: ONLINE</p>
+    </div>
+
 </body>
 </html>
