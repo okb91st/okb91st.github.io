@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<script src="script.js"></script>
 <body>
 
 <div class="nav">
@@ -13,10 +12,16 @@
     <a href="projects.html" class="active">Projects</a>
     <a href="archives.html">Archives</a>
     <a href="about.html">About</a>
+
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('zh')">中文</button>
+    <button onclick="setLang('ru')">RU</button>
 </div>
 
 <div class="content">
-    <h1>Projects</h1>
+    <h1 data-lang="en">Projects</h1>
+    <h1 data-lang="zh" style="display:none;">项目</h1>
+    <h1 data-lang="ru" style="display:none;">Проекты</h1>
 
     <div class="project">
         <h2>MiG-23ML Paper Model</h2>
@@ -33,6 +38,8 @@
         <p><strong>Focus:</strong> Turret optimization and proportional correction</p>
     </div>
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
