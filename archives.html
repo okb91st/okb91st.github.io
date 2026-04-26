@@ -14,7 +14,6 @@
     <a href="archives.html" class="active">Archives</a>
     <a href="about.html">About</a>
 
-    <!-- 语言按钮 -->
     <button onclick="setLang('en')">EN</button>
     <button onclick="setLang('zh')">中文</button>
     <button onclick="setLang('ru')">RU</button>
@@ -28,36 +27,64 @@
     <h1 data-lang="zh" style="display:none;">档案库</h1>
     <h1 data-lang="ru" style="display:none;">Архив</h1>
 
-    <!-- 英文 -->
-    <p data-lang="en">
-    Technical archive system initializing...
-    </p>
+    <!-- 简短说明（保留，但弱化） -->
+    <p data-lang="en">Archive classification system (v1).</p>
+    <p data-lang="zh" style="display:none;">档案分类系统（v1）。</p>
+    <p data-lang="ru" style="display:none;">Система классификации архива (v1).</p>
 
-    <p data-lang="en">
-    Data structures and classification modules under development.
-    </p>
+    <!-- ================= Military ================= -->
+    <div class="project">
+        <h2>Military</h2>
+        <p data-lang="en">Military equipment and systems.</p>
+        <p data-lang="zh" style="display:none;">军用装备与系统。</p>
+        <p data-lang="ru" style="display:none;">Военная техника и системы.</p>
 
-    <!-- 中文 -->
-    <p data-lang="zh" style="display:none;">
-    技术档案系统初始化中……
-    </p>
+        <h3>USSR</h3>
 
-    <p data-lang="zh" style="display:none;">
-    数据结构与分类模块正在构建中。
-    </p>
+        <ul>
+            <li>
+                <strong>Cold War Era</strong>
+                <ul>
+                    <li>
+                        <strong>Air</strong>
+                        <ul>
+                            <li>
+                                <a href="projects/mig23ml.html">
+                                    MiG-23ML Paper Model
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
-    <!-- 俄语 -->
-    <p data-lang="ru" style="display:none;">
-    Инициализация технической архивной системы...
-    </p>
+                    <li><strong>Ground</strong> — Pending</li>
+                    <li><strong>Naval</strong> — Pending</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-    <p data-lang="ru" style="display:none;">
-    Разработка структуры данных и модулей классификации.
-    </p>
+    <!-- ================= Civilian ================= -->
+    <div class="project">
+        <h2>Civilian</h2>
+        <p data-lang="en">Civil infrastructure and public-use assets.</p>
+        <p data-lang="zh" style="display:none;">民用设施与公共资产。</p>
+        <p data-lang="ru" style="display:none;">Гражданская инфраструктура.</p>
+
+        <p>Pending classification.</p>
+    </div>
+
+    <!-- ================= Sci-Fi ================= -->
+    <div class="project">
+        <h2>Sci-Fi / Union Framework</h2>
+        <p data-lang="en">Conceptual and Union-based design projects.</p>
+        <p data-lang="zh" style="display:none;">设定集与联盟架空项目。</p>
+        <p data-lang="ru" style="display:none;">Концептуальные проекты Союза.</p>
+
+        <p>Pending classification.</p>
+    </div>
 
 </div>
 
-<!-- JS -->
 <script src="script.js"></script>
 
 </body>
