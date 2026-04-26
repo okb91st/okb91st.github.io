@@ -63,4 +63,11 @@ p {
 .project p {
     color: #ccc;
 }
+.project a {
+    color: #ffd700;
+    text-decoration: none;
+}
 
+.project a:hover {
+    text-decoration: underline;
+}
