@@ -5,23 +5,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<script src="script.js"></script>
 <body>
 
-    <!-- 导航栏 -->
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="archives.html">Archives</a>
-        <a href="about.html">About</a>
-    </div>
+<!-- Navigation -->
+<div class="nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="archives.html">Archives</a>
+    <a href="about.html">About</a>
 
-    <!-- 内容 -->
-    <div class="content">
-        <h1>共和国联盟第91设计局</h1>
-        <p>OKB-91</p>
-        <p>System Status: ONLINE</p>
-    </div>
+    <!-- 语言按钮 -->
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('zh')">中文</button>
+    <button onclick="setLang('ru')">RU</button>
+</div>
+
+<!-- Content -->
+<div class="content">
+
+    <!-- 标题 -->
+    <h1 data-lang="zh">共和国联盟第91设计局</h1>
+    <h1 data-lang="en" style="display:none;">Design Bureau No.91</h1>
+    <h1 data-lang="ru" style="display:none;">ОКБ-91 Союза</h1>
+
+    <!-- 副标题 -->
+    <p data-lang="en">OKB-91</p>
+    <p data-lang="zh" style="display:none;">OKB-91</p>
+    <p data-lang="ru" style="display:none;">ОКБ-91</p>
+
+    <!-- 状态 -->
+    <p data-lang="en">System Status: ONLINE</p>
+    <p data-lang="zh" style="display:none;">系统状态：运行中</p>
+    <p data-lang="ru" style="display:none;">Состояние системы: АКТИВНА</p>
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
 
 </body>
 </html>
