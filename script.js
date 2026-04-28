@@ -73,3 +73,34 @@ function loadProjectFromJSON() {
 }
 
 loadProjectFromJSON();
+
+function loadProjectList() {
+    const container = document.getElementById("project-list");
+    if (!container) return;
+
+    fetch("data/blueprints.json")
+        .then(res => res.json())
+        .then(data => {
+            container.innerHTML = "";
+
+            data.forEach(p => {
+                const div = document.createElement("div");
+                div.className = "project";
+
+                div.innerHTML = `
+                    <h2>
+                        <a href="project.html?id=${p.id}">
+                            ${p.name.en}
+                        </a>
+                    </h2>
+                    <p><strong>Status:</strong> ${p.status.en}</p>
+                    <p><strong>Scale:</strong> ${p.scale}</p>
+                    <p><strong>Focus:</strong> ${p.focus.en}</p>
+                `;
+
+                container.appendChild(div);
+            });
+        });
+}
+
+loadProjectList();
