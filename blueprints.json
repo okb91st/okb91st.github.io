@@ -1,13 +1,49 @@
 [
   {
     "id": "mig23ml",
-    "name": "MiG-23ML Paper Model",
-    "status": "In progress",
+    "name": {
+      "en": "MiG-23ML Paper Model",
+      "zh": "米格-23ML 纸模项目",
+      "ru": "Модель МиГ-23МЛ"
+    },
+    "status": {
+      "en": "In progress",
+      "zh": "进行中",
+      "ru": "В разработке"
+    },
     "scale": "1:200",
-    "category": "Aircraft / Paper Model",
-    "affiliation": "USSR Armed Forces",
-    "focus": "Release preparation",
-    "description": "This project documents...",
-    "notes": "This page serves..."
+    "category": {
+      "en": "Aircraft / Paper Model",
+      "zh": "飞机 / 纸模",
+      "ru": "Самолёт / бумажная модель"
+    },
+    "affiliation": {
+      "en": "USSR Armed Forces",
+      "zh": "苏联武装力量",
+      "ru": "Вооружённые силы СССР"
+    },
+    "focus": {
+      "en": "Release preparation",
+      "zh": "发布准备",
+      "ru": "Подготовка к выпуску"
+    },
+    "description": {
+      "en": "This project documents the development of a 1:200 scale MiG-23ML paper model.",
+      "zh": "该项目记录了1:200比例米格-23ML纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели МиГ-23МЛ масштаба 1:200."
+    },
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+    "document": "MIG-23ML version of 2601.pdf",
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+    "versionCode": "2601",
+    "pdfPath": "files/MIG-23ML%20version%20of%202601.pdf"
   }
 ]
