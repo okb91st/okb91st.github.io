@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    
     background-color: #07111c;
 
     background-image:
@@ -19,20 +21,23 @@ body {
     font-family: Arial, sans-serif;
 }
 .nav {
-    background: rgba(5, 10, 18, 0.92);
+    background:
+        linear-gradient(
+            90deg,
+            rgba(120,0,0,0.18),
+            rgba(5,10,18,0.94) 25%,
+            rgba(5,10,18,0.94) 75%,
+            rgba(212,175,55,0.10)
+        );
 
     border-bottom: 2px solid #d4af37;
-
-    backdrop-filter: blur(4px);
-
-    box-shadow:
-        0 0 12px rgba(212,175,55,0.12);
+    box-shadow: 0 0 12px rgba(212,175,55,0.18);
 
     padding: 20px;
+    text-align: center;
 
     position: sticky;
     top: 0;
-
     z-index: 1000;
 }
 .nav a {
