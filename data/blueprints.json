@@ -85,13 +85,13 @@
     "zh": "本页面作为OKB-91档案系统中的项目记录。",
     "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
   },
-  "document": "Salyut-6-version-of-2601.pdf",
+  "document": "Salyut-6-version-of-2605-colored.pdf",
   "documentType": {
     "en": "Paper Model Layout",
     "zh": "纸模展开图",
     "ru": "Развёртка бумажной модели"
   },
-  "versionCode": "2601",
-  "pdfPath": "files/Salyut-6-version-of-2601.pdf"
+  "versionCode": "2605",
+  "pdfPath": "files/Salyut-6-version-of-2605-colored.pdf"
 }
 ]
