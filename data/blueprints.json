@@ -91,7 +91,8 @@
     "zh": "纸模展开图",
     "ru": "Развёртка бумажной модели"
   },
-  "versionCode": "2605",
-  "pdfPath": "files/Salyut-6-version-of-2605-colored.pdf"
+  "document": "Salyut-6-version-of-2605-colored.pdf",
+
+"pdfPath": "files/Salyut-6-version-of-2605-colored.pdf"
 }
 ]
