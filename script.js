@@ -21,7 +21,7 @@ function loadProjectFromJSON() {
 
     if (!projectId) return;
 
-    fetch("blueprints.json")
+    fetch("data/blueprints.json")
         .then(res => res.json())
         .then(data => {
             const p = data.find(x => x.id === projectId);
