@@ -108,9 +108,9 @@
   },
 
   "status": {
-    "en": "In development",
-    "zh": "开发中",
-    "ru": "В разработке"
+    "en": "Done",
+    "zh": "完成",
+    "ru": "Завершено"
   },
 
   "scale": "1:200",
@@ -122,9 +122,9 @@
   },
 
   "affiliation": {
-    "en": "USSR Armed Forces",
-    "zh": "苏联武装力量",
-    "ru": "Вооружённые силы СССР"
+    "en": "Soviet Red Army",
+    "zh": "苏联红军",
+    "ru": "Советская Красная Армия"
   },
 
   "focus": {
