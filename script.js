@@ -33,6 +33,8 @@ function loadProjectFromJSON() {
             document.getElementById("name-zh").textContent = p.name.zh;
             document.getElementById("name-ru").textContent = p.name.ru;
 
+            document.getElementById("cover-image").src = p.coverImage;
+
             document.getElementById("status-en").textContent = p.status.en;
             document.getElementById("status-zh").textContent = p.status.zh;
             document.getElementById("status-ru").textContent = p.status.ru;
