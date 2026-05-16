@@ -15,15 +15,21 @@ document.addEventListener("DOMContentLoaded", function() {
     setLang(savedLang);
 });
 
+function loadAllBlueprints() {
+    return Promise.all([
+        fetch("data/blueprints.json").then(r => r.json()),
+        fetch("data/soviet-ww2-smg.json").then(r => r.json())
+    ]).then(datasets => datasets.flat());
+}
+
 function loadProjectFromJSON() {
     const params = new URLSearchParams(window.location.search);
     const projectId = params.get("id");
 
     if (!projectId) return;
 
-    fetch("data/blueprints.json")
-        .then(res => res.json())
-        .then(data => {
+    loadAllBlueprints()
+    .then(data => {
             const p = data.find(x => x.id === projectId);
             if (!p) return;
 
@@ -80,9 +86,8 @@ function loadProjectList() {
     const container = document.getElementById("project-list");
     if (!container) return;
 
-    fetch("data/blueprints.json")
-        .then(res => res.json())
-        .then(data => {
+    loadAllBlueprints()
+    .then(data => {
             container.innerHTML = "";
 
             data.forEach(p => {
