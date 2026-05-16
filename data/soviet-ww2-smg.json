@@ -1,1 +1,477 @@
+[
+  {
+    "id": "ppd34",
 
+    "name": {
+      "en": "PPD-34 Submachine Gun Paper Model",
+      "zh": "PPD-34冲锋枪纸模项目",
+      "ru": "Бумажная модель ППД-34"
+    },
+
+    "status": {
+      "en": "Completed",
+      "zh": "已完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Weapon / Paper Model",
+      "zh": "轻武器 / 纸模",
+      "ru": "Стрелковое оружие / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Советская Красная Армия"
+    },
+
+    "focus": {
+      "en": "Early Soviet submachine gun development",
+      "zh": "早期苏联冲锋枪设计",
+      "ru": "Ранняя разработка советских пистолетов-пулемётов"
+    },
+
+    "description": {
+      "en": "This project documents the development of a PPD-34 submachine gun paper model.",
+      "zh": "该项目记录了PPD-34冲锋枪纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели ППД-34."
+    },
+
+    "history": {
+      "en": "The PPD-34 was one of the earliest Soviet submachine guns developed before the Second World War and served as a foundation for later Soviet automatic infantry weapons.",
+      "zh": "PPD-34是苏联在第二次世界大战前研制的早期冲锋枪之一，并为后续苏联自动步兵武器的发展奠定了基础。",
+      "ru": "ППД-34 являлся одним из ранних советских пистолетов-пулемётов, разработанных до Второй мировой войны."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "PPD34-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "files/PPD34-version-of-2605.pdf",
+
+    "coverImage": "images/soviet-smg-series-cover.jpg"
+  },
+
+  {
+    "id": "ppd3438",
+
+    "name": {
+      "en": "PPD-34/38 Submachine Gun Paper Model",
+      "zh": "PPD-34/38冲锋枪纸模项目",
+      "ru": "Бумажная модель ППД-34/38"
+    },
+
+    "status": {
+      "en": "Completed",
+      "zh": "已完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Weapon / Paper Model",
+      "zh": "轻武器 / 纸模",
+      "ru": "Стрелковое оружие / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Советская Красная Армия"
+    },
+
+    "focus": {
+      "en": "Drum magazine configuration",
+      "zh": "弹鼓版本结构",
+      "ru": "Конфигурация с барабанным магазином"
+    },
+
+    "description": {
+      "en": "This project documents the development of a PPD-34/38 submachine gun paper model.",
+      "zh": "该项目记录了PPD-34/38冲锋枪纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели ППД-34/38."
+    },
+
+    "history": {
+      "en": "The PPD-34/38 introduced improvements over the original PPD-34, including support for drum magazine configurations used in later Soviet submachine gun development.",
+      "zh": "PPD-34/38在原始PPD-34基础上进行了改进，并开始采用后期苏联冲锋枪常见的弹鼓供弹结构。",
+      "ru": "ППД-34/38 представлял собой модернизированную версию ППД-34 с барабанным магазином."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "PPD3438-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "files/PPD3438-version-of-2605.pdf",
+
+    "coverImage": "images/soviet-smg-series-cover.jpg"
+  },
+
+  {
+    "id": "ppd40",
+
+    "name": {
+      "en": "PPD-40 Submachine Gun Paper Model",
+      "zh": "PPD-40冲锋枪纸模项目",
+      "ru": "Бумажная модель ППД-40"
+    },
+
+    "status": {
+      "en": "Completed",
+      "zh": "已完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Weapon / Paper Model",
+      "zh": "轻武器 / 纸模",
+      "ru": "Стрелковое оружие / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Советская Красная Армия"
+    },
+
+    "focus": {
+      "en": "Late PPD wartime production model",
+      "zh": "后期PPD战时型号",
+      "ru": "Поздняя военная версия ППД"
+    },
+
+    "description": {
+      "en": "This project documents the development of a PPD-40 submachine gun paper model.",
+      "zh": "该项目记录了PPD-40冲锋枪纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели ППД-40."
+    },
+
+    "history": {
+      "en": "The PPD-40 was a wartime refinement of earlier PPD designs and represented one of the last major Soviet drum-fed submachine guns before the introduction of the PPSh-41.",
+      "zh": "PPD-40是早期PPD系列在战争时期的进一步改进型号，也是PPSh-41出现前苏联最后一批主要弹鼓冲锋枪之一。",
+      "ru": "ППД-40 являлся дальнейшим развитием серии ППД и одним из последних советских пистолетов-пулемётов с барабанным магазином перед появлением ППШ-41."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "PPD40-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "files/PPD40-version-of-2605.pdf",
+
+    "coverImage": "images/soviet-smg-series-cover.jpg"
+  },
+
+  {
+    "id": "ppsh41drum",
+
+    "name": {
+      "en": "PPSh-41 Drum Magazine Paper Model",
+      "zh": "PPSh-41弹鼓型纸模项目",
+      "ru": "Бумажная модель ППШ-41 с барабанным магазином"
+    },
+
+    "status": {
+      "en": "Completed",
+      "zh": "已完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Weapon / Paper Model",
+      "zh": "轻武器 / 纸模",
+      "ru": "Стрелковое оружие / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Советская Красная Армия"
+    },
+
+    "focus": {
+      "en": "Drum magazine wartime configuration",
+      "zh": "弹鼓供弹结构",
+      "ru": "Конфигурация с барабанным магазином"
+    },
+
+    "description": {
+      "en": "This project documents the development of a PPSh-41 drum magazine submachine gun paper model.",
+      "zh": "该项目记录了PPSh-41弹鼓型冲锋枪纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели ППШ-41 с барабанным магазином."
+    },
+
+    "history": {
+      "en": "The PPSh-41 became one of the most widely produced Soviet infantry weapons of the Second World War and was widely recognized for its drum magazine configuration and mass-production capability.",
+      "zh": "PPSh-41是第二次世界大战期间产量最大的苏联步兵武器之一，并因其弹鼓结构与大规模生产能力而广为人知。",
+      "ru": "ППШ-41 стал одним из самых массовых советских пистолетов-пулемётов периода Второй мировой войны."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "PPSh41-drum-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "files/PPSh41-drum-version-of-2605.pdf",
+
+    "coverImage": "images/soviet-smg-series-cover.jpg"
+  },
+
+  {
+    "id": "ppsh41box",
+
+    "name": {
+      "en": "PPSh-41 Box Magazine Paper Model",
+      "zh": "PPSh-41弹匣型纸模项目",
+      "ru": "Бумажная модель ППШ-41 с секторным магазином"
+    },
+
+    "status": {
+      "en": "Completed",
+      "zh": "已完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Weapon / Paper Model",
+      "zh": "轻武器 / 纸模",
+      "ru": "Стрелковое оружие / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Советская Красная Армия"
+    },
+
+    "focus": {
+      "en": "Box magazine wartime configuration",
+      "zh": "弹匣供弹结构",
+      "ru": "Конфигурация с секторным магазином"
+    },
+
+    "description": {
+      "en": "This project documents the development of a PPSh-41 box magazine submachine gun paper model.",
+      "zh": "该项目记录了PPSh-41弹匣型冲锋枪纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели ППШ-41 с секторным магазином."
+    },
+
+    "history": {
+      "en": "Later wartime PPSh-41 production increasingly adopted box magazines to simplify logistics and improve battlefield practicality.",
+      "zh": "战争后期的PPSh-41逐渐更多采用弹匣供弹结构，以简化后勤与提升战场实用性。",
+      "ru": "Поздние версии ППШ-41 всё чаще использовали секторные магазины для упрощения производства и эксплуатации."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "PPSh41-box-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "files/PPSh41-box-version-of-2605.pdf",
+
+    "coverImage": "images/soviet-smg-series-cover.jpg"
+  },
+
+  {
+    "id": "pps42",
+
+    "name": {
+      "en": "PPS-42 Submachine Gun Paper Model",
+      "zh": "PPS-42冲锋枪纸模项目",
+      "ru": "Бумажная модель ППС-42"
+    },
+
+    "status": {
+      "en": "Done",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Weapon / Paper Model",
+      "zh": "轻武器 / 纸模",
+      "ru": "Стрелковое оружие / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Советская Красная Армия"
+    },
+
+    "focus": {
+      "en": "Structural redesign",
+      "zh": "结构重制",
+      "ru": "Переработка конструкции"
+    },
+
+    "description": {
+      "en": "This project documents the development of a PPS-42 submachine gun paper model.",
+      "zh": "该项目记录了PPS-42冲锋枪纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели ППС-42."
+    },
+
+    "history": {
+      "en": "The PPS-42 was a Soviet submachine gun developed during the Second World War as a simplified and mass-producible infantry weapon intended for wartime production under siege conditions.",
+      "zh": "PPS-42是苏联在第二次世界大战期间研制的冲锋枪，旨在满足战时环境下对简化生产与大规模装备的需求。",
+      "ru": "ППС-42 был советским пистолетом-пулемётом, разработанным в годы Второй мировой войны как упрощённое оружие массового производства."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "PPS42-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "files/PPS42-version-of-2605.pdf",
+
+    "coverImage": "images/soviet-smg-series-cover.jpg"
+  },
+
+  {
+    "id": "pps43",
+
+    "name": {
+      "en": "PPS-43 Submachine Gun Paper Model",
+      "zh": "PPS-43冲锋枪纸模项目",
+      "ru": "Бумажная модель ППС-43"
+    },
+
+    "status": {
+      "en": "Completed",
+      "zh": "已完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Weapon / Paper Model",
+      "zh": "轻武器 / 纸模",
+      "ru": "Стрелковое оружие / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Советская Красная Армия"
+    },
+
+    "focus": {
+      "en": "Simplified wartime production design",
+      "zh": "战时简化生产结构",
+      "ru": "Упрощённая конструкция военного производства"
+    },
+
+    "description": {
+      "en": "This project documents the development of a PPS-43 submachine gun paper model.",
+      "zh": "该项目记录了PPS-43冲锋枪纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели ППС-43."
+    },
+
+    "history": {
+      "en": "The PPS-43 was an improved wartime development of the PPS-42 submachine gun. The weapon featured a simplified structure, reduced manufacturing complexity, and improved reliability under frontline production conditions during the Second World War.",
+      "zh": "PPS-43是PPS-42在第二次世界大战期间的进一步改进型号。该武器在结构上进一步简化，并降低了生产复杂度，以适应战时前线工业生产条件。",
+      "ru": "ППС-43 являлся дальнейшим развитием ППС-42 времён Второй мировой войны. Оружие отличалось упрощённой конструкцией и сниженной сложностью производства."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "PPS43-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "files/PPS43-version-of-2605.pdf",
+
+    "coverImage": "images/soviet-smg-series-cover.jpg"
+  }
+]
