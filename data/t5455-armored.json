@@ -137,5 +137,75 @@
     "pdfPath": "files/T54mod1951early-version-of-2601.pdf",
 
     "coverImage": "images/t5455-series-cover.jpg"
+  },
+
+   {
+    "id": "t54mod1951late",
+
+    "name": {
+      "en": "T-54 Model 1951 late Paper Model",
+      "zh": "T-54（1951后期型）纸模项目",
+      "ru": "Бумажная модель Т-54 образца 1951 года(Поздний вариант)"
+    },
+
+    "status": {
+      "en": "Completed",
+      "zh": "已完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Tank / Paper Model",
+      "zh": "坦克 / 纸模",
+      "ru": "Танк / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Ground Forces",
+      "zh": "苏联地面部队",
+      "ru": "Советские Сухопутные войска"
+    },
+
+    "focus": {
+      "en": "Early Cold War armored vehicle development",
+      "zh": "冷战早期装甲车辆发展",
+      "ru": "Развитие бронетехники раннего периода Холодной войны"
+    },
+
+    "description": {
+      "en": "This project documents the development of a T-54 Model 1951 late paper model.",
+      "zh": "该项目记录了T-54（1951后期型）纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели Т-54 образца 1951 года(Поздний вариант)."
+    },
+
+    "history": {
+      "en": "The T-54 became one of the most influential Soviet main battle tank designs of the Cold War and formed the basis for the later T-54/55 armored vehicle family.",
+
+      "zh": "T-54是冷战时期最具影响力的苏联主战坦克之一，并成为后续T-54/55系列装甲车辆发展的基础。",
+
+      "ru": "Т-54 стал одним из наиболее влиятельных советских танков периода Холодной войны и послужил основой для семейства Т-54/55."
+    },
+
+    "notes": {
+      "en": "This page serves as a project detail record within the OKB-91 archive system.",
+      "zh": "本页面作为OKB-91档案系统中的项目记录。",
+      "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+    },
+
+    "document": "T54mod1951late-version-of-2601.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2601",
+
+    "pdfPath": "files/T54mod1951late-version-of-2601.pdf",
+
+    "coverImage": "images/t5455-series-cover.jpg"
   }
 ]
