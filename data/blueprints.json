@@ -56,9 +56,9 @@
   },
     
   "status": {
-    "en": "In progress",
-    "zh": "进行中",
-    "ru": "В разработке"
+    "en": "Complete",
+    "zh": "完成",
+    "ru": "Завершено"
   },
   "scale": "1:200",
   "category": {
