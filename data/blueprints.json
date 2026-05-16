@@ -166,5 +166,74 @@
   "pdfPath": "files/PPS42-version-of-2605.pdf",
 
   "coverImage": "images/pps42-cover.jpg"
+},
+  {
+  "id": "pps43",
+
+  "name": {
+    "en": "PPS-43 Submachine Gun Paper Model",
+    "zh": "PPS-43冲锋枪纸模项目",
+    "ru": "Бумажная модель ППС-43"
+  },
+
+  "status": {
+    "en": "Completed",
+    "zh": "已完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Infantry Weapon / Paper Model",
+    "zh": "轻武器 / 纸模",
+    "ru": "Стрелковое оружие / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Red Army",
+    "zh": "苏联红军",
+    "ru": "Советская Красная Армия"
+  },
+
+  "focus": {
+    "en": "Simplified wartime production design",
+    "zh": "战时简化生产结构",
+    "ru": "Упрощённая конструкция военного производства"
+  },
+
+  "description": {
+    "en": "This project documents the development of a PPS-43 submachine gun paper model.",
+    "zh": "该项目记录了PPS-43冲锋枪纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели ППС-43."
+  },
+
+  "history": {
+    "en": "The PPS-43 was an improved wartime development of the PPS-42 submachine gun. The weapon featured a simplified structure, reduced manufacturing complexity, and improved reliability under frontline production conditions during the Second World War.",
+
+    "zh": "PPS-43是PPS-42在第二次世界大战期间的进一步改进型号。该武器在结构上进一步简化，并降低了生产复杂度，以适应战时前线工业生产条件。",
+
+    "ru": "ППС-43 являлся дальнейшим развитием ППС-42 времён Второй мировой войны. Оружие отличалось упрощённой конструкцией и сниженной сложностью производства."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "PPS43-version-of-2605.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2605",
+
+  "pdfPath": "files/PPS43-version-of-2605.pdf",
+
+  "coverImage": "images/pps43-cover.jpg"
 }
 ]
