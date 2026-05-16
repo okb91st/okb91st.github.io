@@ -97,4 +97,74 @@
 "pdfPath": "files/Salyut-6-version-of-2605-colored.pdf",
     "coverImage": "images/salyut6-cover.jpg"
 }
+
+  {
+  "id": "pps42",
+
+  "name": {
+    "en": "PPS-42 Submachine Gun Paper Model",
+    "zh": "PPS-42冲锋枪纸模项目",
+    "ru": "Бумажная модель ППС-42"
+  },
+
+  "status": {
+    "en": "In development",
+    "zh": "开发中",
+    "ru": "В разработке"
+  },
+
+  "scale": "1:2",
+
+  "category": {
+    "en": "Infantry Weapon / Paper Model",
+    "zh": "轻武器 / 纸模",
+    "ru": "Стрелковое оружие / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "USSR Armed Forces",
+    "zh": "苏联武装力量",
+    "ru": "Вооружённые силы СССР"
+  },
+
+  "focus": {
+    "en": "Structural redesign",
+    "zh": "结构重制",
+    "ru": "Переработка конструкции"
+  },
+
+  "description": {
+    "en": "This project documents the development of a PPS-42 submachine gun paper model.",
+    "zh": "该项目记录了PPS-42冲锋枪纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели ППС-42."
+  },
+
+  "history": {
+    "en": "The PPS-42 was a Soviet submachine gun developed during the Second World War as a simplified and mass-producible infantry weapon intended for wartime production under siege conditions.",
+
+    "zh": "PPS-42是苏联在第二次世界大战期间研制的冲锋枪，旨在满足战时环境下对简化生产与大规模装备的需求。",
+
+    "ru": "ППС-42 был советским пистолетом-пулемётом, разработанным в годы Второй мировой войны как упрощённое оружие массового производства."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "PPS42-version-of-2605.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2605",
+
+  "pdfPath": "files/PPS42-version-of-2605.pdf",
+
+  "coverImage": "images/pps42-cover.jpg"
+}
 ]
