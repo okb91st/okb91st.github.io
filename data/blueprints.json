@@ -54,7 +54,7 @@
     "zh": "礼炮6号空间站纸模项目",
     "ru": "Бумажная модель станции Салют-6"
   },
-    "coverImage": "images/salyut6-cover.jpg",
+    
   "status": {
     "en": "In progress",
     "zh": "进行中",
@@ -94,6 +94,7 @@
   },
   "document": "Salyut-6-version-of-2605-colored.pdf",
 
-"pdfPath": "files/Salyut-6-version-of-2605-colored.pdf"
+"pdfPath": "files/Salyut-6-version-of-2605-colored.pdf",
+    "coverImage": "images/salyut6-cover.jpg"
 }
 ]
