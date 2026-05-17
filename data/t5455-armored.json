@@ -277,5 +277,75 @@
     "pdfPath": "files/T54Amod1955-version-of-2601.pdf",
 
     "coverImage": "images/t5455-series-cover.jpg"
-  }
+  },
+
+  {
+  "id": "t54bmod1956",
+
+  "name": {
+    "en": "T-54B Model 1956 Paper Model",
+    "zh": "T-54B（1956型）纸模项目",
+    "ru": "Бумажная модель Т-54Б образца 1956 года"
+  },
+
+  "status": {
+    "en": "Completed",
+    "zh": "已完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Tank / Paper Model",
+    "zh": "坦克 / 纸模",
+    "ru": "Танк / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Ground Forces",
+    "zh": "苏联地面部队",
+    "ru": "Советские Сухопутные войска"
+  },
+
+  "focus": {
+    "en": "Cold War armored vehicle modernization",
+    "zh": "冷战时期装甲车辆现代化改进",
+    "ru": "Модернизация бронетехники периода Холодной войны"
+  },
+
+  "description": {
+    "en": "This project documents the development of a T-54B Model 1956 paper model.",
+    "zh": "该项目记录了T-54B（1956型）纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели Т-54Б образца 1956 года."
+  },
+
+  "history": {
+    "en": "The T-54B Model 1956 represented a further modernization of the T-54 series during the Cold War. The vehicle introduced improved night-fighting capability and stabilization systems, becoming one of the most recognizable Soviet armored vehicles of the late 1950s.",
+
+    "zh": "T-54B（1956型）是冷战时期T-54系列的进一步现代化改进型号。该型号引入了改进的夜战能力与火炮稳定系统，并成为1950年代后期最具代表性的苏联装甲车辆之一。",
+
+    "ru": "Т-54Б образца 1956 года являлся дальнейшей модернизацией серии Т-54 периода Холодной войны. Машина получила улучшенные возможности ночного боя и усовершенствованную систему стабилизации вооружения."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "T54Bmod1956-version-of-2605.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2605",
+
+  "pdfPath": "files/T54Bmod1956-version-of-2605.pdf",
+
+  "coverImage": "images/t5455-series-cover.jpg"
+}
 ]
