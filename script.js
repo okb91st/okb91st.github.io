@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
 function loadAllBlueprints() {
     return Promise.all([
         fetch("data/blueprints.json").then(r => r.json()),
-        fetch("data/soviet-ww2-smg.json").then(r => r.json())
+        fetch("data/soviet-ww2-smg.json").then(r => r.json()),
+        fetch("data/t5455-armored.json").then(r => r.json())
     ]).then(datasets => datasets.flat());
 }
 
