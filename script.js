@@ -15,14 +15,25 @@ document.addEventListener("DOMContentLoaded", function() {
     setLang(savedLang);
 });
 
-function loadAllBlueprints() {
-    return Promise.all([
-        fetch("data/blueprints.json").then(r => r.json()),
-        fetch("data/soviet-ww2-smg.json").then(r => r.json()),
-        fetch("data/t5455-armored.json").then(r => r.json())
-    ]).then(datasets => datasets.flat());
+function loadJSON(path) {
+    return fetch(path)
+        .then(r => {
+            if (!r.ok) throw new Error(path + " failed");
+            return r.json();
+        })
+        .catch(err => {
+            console.error("Failed to load:", path, err);
+            return [];
+        });
 }
 
+function loadAllBlueprints() {
+    return Promise.all([
+        loadJSON("data/blueprints.json"),
+        loadJSON("data/soviet-ww2-smg.json"),
+        loadJSON("data/t5455-armored.json")
+    ]).then(datasets => datasets.flat());
+}
 function loadProjectFromJSON() {
     const params = new URLSearchParams(window.location.search);
     const projectId = params.get("id");
