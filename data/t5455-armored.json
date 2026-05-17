@@ -334,7 +334,146 @@
     "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
   },
 
-  "document": "T54Bmod1956-version-of-2605.pdf",
+  "document": "T54Bmod1956-version-of-2601.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2601",
+
+  "pdfPath": "files/T54Bmod1956-version-of-2601.pdf",
+
+  "coverImage": "images/t5455-series-cover.jpg"
+},
+  {
+  "id": "t55amod1961",
+
+  "name": {
+    "en": "T-55A Model 1961 Paper Model",
+    "zh": "T-55A（1961型）纸模项目",
+    "ru": "Бумажная модель Т-55А образца 1961 года"
+  },
+
+  "status": {
+    "en": "Completed",
+    "zh": "已完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Tank / Paper Model",
+    "zh": "坦克 / 纸模",
+    "ru": "Танк / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Ground Forces",
+    "zh": "苏联地面部队",
+    "ru": "Советские Сухопутные войска"
+  },
+
+  "focus": {
+    "en": "Cold War main battle tank modernization",
+    "zh": "冷战时期主战坦克现代化改进",
+    "ru": "Модернизация основных боевых танков периода Холодной войны"
+  },
+
+  "description": {
+    "en": "This project documents the development of a T-55A Model 1961 paper model.",
+    "zh": "该项目记录了T-55A（1961型）纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели Т-55А образца 1961 года."
+  },
+
+  "history": {
+    "en": "The T-55A Model 1961 represented an important modernization of the T-55 series during the Cold War. The vehicle incorporated improvements in crew protection and operational capability, becoming one of the most widespread Soviet armored vehicles of the post-war period.",
+
+    "zh": "T-55A（1961型）是冷战时期T-55系列的重要现代化改进型号。该型号强化了车组防护与作战能力，并成为战后苏联最广泛装备的装甲车辆之一。",
+
+    "ru": "Т-55А образца 1961 года являлся важной модернизацией серии Т-55 периода Холодной войны. Машина получила улучшенную защиту экипажа и усовершенствованные боевые возможности."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "T55Amod1961-version-of-2601.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2601",
+
+  "pdfPath": "files/T55Amod1961-version-of-2601.pdf",
+
+  "coverImage": "images/t5455-series-cover.jpg"
+},
+
+  {
+  "id": "t55am1mod1983",
+
+  "name": {
+    "en": "T-55AM-1 Model 1983 Paper Model",
+    "zh": "T-55AM-1（1983型）纸模项目",
+    "ru": "Бумажная модель Т-55АМ-1 образца 1983 года"
+  },
+
+  "status": {
+    "en": "Completed",
+    "zh": "已完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Tank / Paper Model",
+    "zh": "坦克 / 纸模",
+    "ru": "Танк / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Ground Forces",
+    "zh": "苏联地面部队",
+    "ru": "Советские Сухопутные войска"
+  },
+
+  "focus": {
+    "en": "Late Cold War armored vehicle modernization",
+    "zh": "冷战后期装甲车辆现代化改进",
+    "ru": "Модернизация бронетехники позднего периода Холодной войны"
+  },
+
+  "description": {
+    "en": "This project documents the development of a T-55AM-1 Model 1983 paper model.",
+    "zh": "该项目记录了T-55AM-1（1983型）纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели Т-55АМ-1 образца 1983 года."
+  },
+
+  "history": {
+    "en": "The T-55AM-1 Model 1983 represented one of the major modernization programs of the T-55 series during the late Cold War. The vehicle introduced additional armor protection, improved fire-control capability, and upgraded battlefield survivability.",
+
+    "zh": "T-55AM-1（1983型）是冷战后期T-55系列的重要现代化改进型号之一。该型号强化了附加装甲、防护能力与火控系统，并提升了战场生存能力。",
+
+    "ru": "Т-55АМ-1 образца 1983 года являлся одной из важнейших программ модернизации серии Т-55 позднего периода Холодной войны. Машина получила дополнительную броневую защиту и усовершенствованные боевые возможности."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "T55AM1mod1983-version-of-2605.pdf",
 
   "documentType": {
     "en": "Paper Model Layout",
@@ -344,7 +483,77 @@
 
   "versionCode": "2605",
 
-  "pdfPath": "files/T54Bmod1956-version-of-2605.pdf",
+  "pdfPath": "files/T55AM1mod1983-version-of-2605.pdf",
+
+  "coverImage": "images/t5455-series-cover.jpg"
+},
+
+  {
+  "id": "t55amd",
+
+  "name": {
+    "en": "T-55AMD Paper Model",
+    "zh": "T-55AMD纸模项目",
+    "ru": "Бумажная модель Т-55АМД"
+  },
+
+  "status": {
+    "en": "In development",
+    "zh": "正在绘制",
+    "ru": "В разработке"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Tank / Paper Model",
+    "zh": "坦克 / 纸模",
+    "ru": "Танк / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Ground Forces",
+    "zh": "苏联地面部队",
+    "ru": "Советские Сухопутные войска"
+  },
+
+  "focus": {
+    "en": "Late Cold War armored vehicle modernization",
+    "zh": "冷战后期装甲车辆现代化改进",
+    "ru": "Модернизация бронетехники позднего периода Холодной войны"
+  },
+
+  "description": {
+    "en": "This project documents the ongoing development of a T-55AMD paper model.",
+    "zh": "该项目记录了T-55AMD纸模的绘制与开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели Т-55АМД."
+  },
+
+  "history": {
+    "en": "The T-55AMD represented a late Cold War modernization of the T-55 series equipped with active protection systems and additional survivability improvements.",
+
+    "zh": "T-55AMD是冷战后期T-55系列的重要现代化改进型号之一，装备了主动防护系统并强化了战场生存能力。",
+
+    "ru": "Т-55АМД являлся модернизированной версией серии Т-55 позднего периода Холодной войны и оснащался системой активной защиты."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "T55AMD-version-of-2605.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2605",
+
+  "pdfPath": "files/T55AMD-version-of-2605.pdf",
 
   "coverImage": "images/t5455-series-cover.jpg"
 }
