@@ -1,1 +1,245 @@
+[
+  {
+  "id": "m1891-07",
+  "name": {
+    "en": "M1891/07 Bolt-Action Rifle Paper Model",
+    "zh": "M1891/07型栓动步枪纸模项目",
+    "ru": "Бумажная модель винтовки М1891/07"
+  },
 
+  "status": {
+    "en": "Complete",
+    "zh": "完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Infantry Weapon / Paper Model",
+    "zh": "步兵武器 / 纸模",
+    "ru": "Пехотное оружие / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Red Army",
+    "zh": "苏联红军陆军",
+    "ru": "Красная Армия СССР"
+  },
+
+  "focus": {
+    "en": "Archive preparation",
+    "zh": "档案整理",
+    "ru": "Подготовка архива"
+  },
+
+  "description": {
+    "en": "This project documents the development of a 1:200 scale M1891/07 bolt-action rifle paper model.",
+    "zh": "该项目记录了1:200比例M1891/07型栓动步枪纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели винтовки М1891/07 масштаба 1:200."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "M1891-07-version-of-2604.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2604",
+
+  "pdfPath": "files/M1891-07-version-of-2604.pdf",
+
+  "coverImage": "images/soviet-ww2-rifles-cover.jpg"
+},
+
+{
+  "id": "m1891-dragoon",
+  "name": {
+    "en": "M1891 Dragoon Rifle Paper Model",
+    "zh": "M1891龙骑兵型步枪纸模项目",
+    "ru": "Бумажная модель драгунской винтовки М1891"
+  },
+
+  "status": {
+    "en": "Complete",
+    "zh": "完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Infantry Weapon / Paper Model",
+    "zh": "步兵武器 / 纸模",
+    "ru": "Пехотное оружие / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Red Army",
+    "zh": "苏联红军陆军",
+    "ru": "Красная Армия СССР"
+  },
+
+  "focus": {
+    "en": "Archive preparation",
+    "zh": "档案整理",
+    "ru": "Подготовка архива"
+  },
+
+  "description": {
+    "en": "This project documents the development of a 1:200 scale M1891 Dragoon rifle paper model.",
+    "zh": "该项目记录了1:200比例M1891龙骑兵型步枪纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели драгунской винтовки М1891 масштаба 1:200."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "M1891-Dragoon-version-of-2604.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2604",
+
+  "pdfPath": "files/M1891-Dragoon-version-of-2604.pdf",
+
+  "coverImage": "images/soviet-ww2-rifles-cover.jpg"
+},
+
+{
+  "id": "m1891-30",
+  "name": {
+    "en": "M1891/30 Bolt-Action Rifle Paper Model",
+    "zh": "M1891/30型栓动步枪纸模项目",
+    "ru": "Бумажная модель винтовки М1891/30"
+  },
+
+  "status": {
+    "en": "Complete",
+    "zh": "完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Infantry Weapon / Paper Model",
+    "zh": "步兵武器 / 纸模",
+    "ru": "Пехотное оружие / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Red Army",
+    "zh": "苏联红军陆军",
+    "ru": "Красная Армия СССР"
+  },
+
+  "focus": {
+    "en": "Archive preparation",
+    "zh": "档案整理",
+    "ru": "Подготовка архива"
+  },
+
+  "description": {
+    "en": "This project documents the development of a 1:200 scale M1891/30 bolt-action rifle paper model.",
+    "zh": "该项目记录了1:200比例M1891/30型栓动步枪纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели винтовки М1891/30 масштаба 1:200."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "M1891-30-version-of-2604.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2604",
+
+  "pdfPath": "files/M1891-30-version-of-2604.pdf",
+
+  "coverImage": "images/soviet-ww2-rifles-cover.jpg"
+},
+
+{
+  "id": "m1938-44",
+  "name": {
+    "en": "M1938/44 Carbine Paper Model",
+    "zh": "M1938/44型卡宾枪纸模项目",
+    "ru": "Бумажная модель карабина М1938/44"
+  },
+
+  "status": {
+    "en": "Complete",
+    "zh": "完成",
+    "ru": "Завершено"
+  },
+
+  "scale": "1:200",
+
+  "category": {
+    "en": "Infantry Weapon / Paper Model",
+    "zh": "步兵武器 / 纸模",
+    "ru": "Пехотное оружие / бумажная модель"
+  },
+
+  "affiliation": {
+    "en": "Soviet Red Army",
+    "zh": "苏联红军陆军",
+    "ru": "Красная Армия СССР"
+  },
+
+  "focus": {
+    "en": "Archive preparation",
+    "zh": "档案整理",
+    "ru": "Подготовка архива"
+  },
+
+  "description": {
+    "en": "This project documents the development of a 1:200 scale M1938/44 carbine paper model.",
+    "zh": "该项目记录了1:200比例M1938/44型卡宾枪纸模的开发过程。",
+    "ru": "Проект посвящён разработке бумажной модели карабина М1938/44 масштаба 1:200."
+  },
+
+  "notes": {
+    "en": "This page serves as a project detail record within the OKB-91 archive system.",
+    "zh": "本页面作为OKB-91档案系统中的项目记录。",
+    "ru": "Эта страница является архивной записью проекта в системе ОКБ-91."
+  },
+
+  "document": "M1938-44-version-of-2604.pdf",
+
+  "documentType": {
+    "en": "Paper Model Layout",
+    "zh": "纸模展开图",
+    "ru": "Развёртка бумажной модели"
+  },
+
+  "versionCode": "2604",
+
+  "pdfPath": "files/M1938-44-version-of-2604.pdf",
+
+  "coverImage": "images/soviet-ww2-rifles-cover.jpg"
+}
+]
