@@ -31,6 +31,7 @@ function loadAllBlueprints() {
     return Promise.all([
         loadJSON("data/blueprints.json"),
         loadJSON("data/soviet-ww2-smg.json"),
+        loadJSON("data/soviet-ww2-bar.json"),
         loadJSON("data/t5455-armored.json")
     ]).then(datasets => datasets.flat());
 }
