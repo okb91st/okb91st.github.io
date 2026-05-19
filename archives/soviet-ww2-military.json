@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Second World War Soviet Armed Forces - OKB-91</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="nav">
+    <a href="../../index.html">Home</a>
+    <a href="../../projects.html">Projects</a>
+    <a href="../main-archives.html" class="active">Archives</a>
+    <a href="../../about.html">About</a>
+
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('zh')">中文</button>
+    <button onclick="setLang('ru')">RU</button>
+</div>
+
+<div class="project">
+
+    <h2>
+        <span data-lang="en">Second World War Soviet Armed Forces</span>
+        <span data-lang="zh" style="display:none;">第二次世界大战苏联武装力量</span>
+        <span data-lang="ru" style="display:none;">Советские Вооружённые Силы периода Второй мировой войны</span>
+    </h2>
+
+    <p data-lang="en">
+        Military equipment, vehicles, aircraft, naval assets, and infrastructure of the Soviet Armed Forces during the Second World War.
+    </p>
+
+    <p data-lang="zh" style="display:none;">
+        第二次世界大战期间苏联武装力量的军事装备、载具、航空器、海军资产与军事设施档案。
+    </p>
+
+    <p data-lang="ru" style="display:none;">
+        Архивы военной техники, авиации, флота и инфраструктуры Советских Вооружённых Сил периода Второй мировой войны.
+    </p>
+
+    <ul>
+
+        <li>
+            <a href="ww2-soviet-red-army-air-force.html">
+                <span data-lang="en">Soviet Red Army Air Force</span>
+                <span data-lang="zh" style="display:none;">苏联红军空军</span>
+                <span data-lang="ru" style="display:none;">Военно-воздушные силы Красной Армии СССР</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="ww2-soviet-red-army.html">
+                <span data-lang="en">Soviet Red Army</span>
+                <span data-lang="zh" style="display:none;">苏联红军陆军</span>
+                <span data-lang="ru" style="display:none;">Красная Армия СССР</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="ww2-soviet-red-navy.html">
+                <span data-lang="en">Soviet Red Navy</span>
+                <span data-lang="zh" style="display:none;">苏联红海军</span>
+                <span data-lang="ru" style="display:none;">Красный флот СССР</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="ww2-soviet-structures.html">
+                <span data-lang="en">Soviet Military Structures and Fortifications</span>
+                <span data-lang="zh" style="display:none;">苏联军事设施与防御工事</span>
+                <span data-lang="ru" style="display:none;">Советские военные сооружения и укрепления</span>
+            </a>
+        </li>
+
+    </ul>
+
+</div>
+
+<script src="../../script.js"></script>
+
+</body>
+</html>
