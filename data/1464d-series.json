@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1464d83white",
+    "name": {
+      "en": "1-464D-83 Residential Building Paper Model",
+      "zh": "1-464D-83住宅楼纸模项目",
+      "ru": "Бумажная модель жилого дома серии 1-464Д-83"
+    },
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+    "scale": "1:200",
+    "category": {
+      "en": "Residential Building / Paper Model",
+      "zh": "居住建筑 / 纸模",
+      "ru": "Жилое здание / бумажная модель"
+    },
+    "affiliation": {
+      "en": "Soviet Civilian Systems",
+      "zh": "苏联民生系统",
+      "ru": "Советские гражданские системы"
+    },
+    "focus": {
+      "en": "Archive preparation",
+      "zh": "档案整理",
+      "ru": "Подготовка архива"
+    },
+    "description": {
+      "en": "This project documents the development of a 1:200 scale 1-464D-83 residential building paper model.",
+      "zh": "该项目记录了1:200比例1-464D-83住宅楼纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели жилого дома серии 1-464Д-83 масштаба 1:200."
+    },
+    "notes": {
+      "en": "This model is archived as part of the OKB-91 Soviet civilian building collection.",
+      "zh": "本项目作为OKB-91苏联民用建筑档案中的住宅建筑项目记录。",
+      "ru": "Эта модель включена в коллекцию советских гражданских зданий архива ОКБ-91."
+    },
+    "document": "1-464D-83-white-version-of-2605.pdf",
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+    "versionCode": "2605",
+    "pdfPath": "/files/1-464D-83-white-version-of-2605.pdf",
+    "coverImage": "/images/1-464D-83-cover.jpg"
+  }
+]
