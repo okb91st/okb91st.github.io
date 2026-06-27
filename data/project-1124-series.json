@@ -1,0 +1,127 @@
+```json
+[
+  {
+    "id": "pr1124mod1941",
+
+    "name": {
+      "en": "Project 1124 Armored Boat (1941 Model)",
+      "zh": "Pr.1124装甲艇（1941型）",
+      "ru": "Бронекатер проекта 1124 (образца 1941 года)"
+    },
+
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Armored Boat / Paper Model",
+      "zh": "装甲艇 / 纸模",
+      "ru": "Бронекатер / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Second World War Soviet Navy",
+      "zh": "第二次世界大战苏联红海军",
+      "ru": "Военно-Морской Флот СССР"
+    },
+
+    "focus": {
+      "en": "Archive preparation",
+      "zh": "档案整理",
+      "ru": "Подготовка архива"
+    },
+
+    "description": {
+      "en": "This project documents the development of a 1:200 scale Project 1124 armored boat (1941 model).",
+      "zh": "该项目记录了1:200比例Pr.1124装甲艇（1941型）纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели бронекатера проекта 1124 образца 1941 года масштаба 1:200."
+    },
+
+    "notes": {
+      "en": "This project is archived as part of the OKB-91 Soviet naval archive.",
+      "zh": "本项目作为OKB-91苏联红海军档案的一部分。",
+      "ru": "Данный проект входит в архив советского военно-морского флота ОКБ-91."
+    },
+
+    "document": "Pr1124mod1941-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "/files/Pr1124mod1941-version-of-2605.pdf",
+
+    "coverImage": "/images/pr1124-series-cover.jpg"
+  },
+
+  {
+    "id": "pr1124mod1944",
+
+    "name": {
+      "en": "Project 1124 Armored Boat (1944 Model)",
+      "zh": "Pr.1124装甲艇（1944型）",
+      "ru": "Бронекатер проекта 1124 (образца 1944 года)"
+    },
+
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Armored Boat / Paper Model",
+      "zh": "装甲艇 / 纸模",
+      "ru": "Бронекатер / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Second World War Soviet Navy",
+      "zh": "第二次世界大战苏联红海军",
+      "ru": "Военно-Морской Флот СССР"
+    },
+
+    "focus": {
+      "en": "Archive preparation",
+      "zh": "档案整理",
+      "ru": "Подготовка архива"
+    },
+
+    "description": {
+      "en": "This project documents the development of a 1:200 scale Project 1124 armored boat (1944 model).",
+      "zh": "该项目记录了1:200比例Pr.1124装甲艇（1944型）纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели бронекатера проекта 1124 образца 1944 года масштаба 1:200."
+    },
+
+    "notes": {
+      "en": "This project is archived as part of the OKB-91 Soviet naval archive.",
+      "zh": "本项目作为OKB-91苏联红海军档案的一部分。",
+      "ru": "Данный проект входит в архив советского военно-морского флота ОКБ-91."
+    },
+
+    "document": "Pr1124mod1944-version-of-2605.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2605",
+
+    "pdfPath": "/files/Pr1124mod1944-version-of-2605.pdf",
+
+    "coverImage": "/images/pr1124-series-cover.jpg"
+  }
+]
+```
