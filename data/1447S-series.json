@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1447S36",
+
+    "name": {
+      "en": "1-447S-36 Residential Building",
+      "zh": "1-447S-36住宅楼",
+      "ru": "Жилой дом серии 1-447С-36"
+    },
+
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Brick Residential Building / Paper Model",
+      "zh": "砖砌住宅 / 纸模",
+      "ru": "Кирпичный жилой дом / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Civilian Systems",
+      "zh": "苏联民生系统",
+      "ru": "Советские гражданские системы"
+    },
+
+    "focus": {
+      "en": "Archive preparation",
+      "zh": "档案整理",
+      "ru": "Подготовка архива"
+    },
+
+    "description": {
+      "en": "This project documents the development of a 1:200 scale paper model of the 1-447S-36 standard brick residential building.",
+      "zh": "该项目记录了1:200比例1-447S-36标准砖砌住宅楼纸模的开发过程。",
+      "ru": "Проект посвящён разработке бумажной модели стандартного кирпичного жилого дома серии 1-447С-36 масштаба 1:200."
+    },
+
+    "notes": {
+      "en": "Archived as part of the OKB-91 Soviet Cold War residential building collection.",
+      "zh": "本项目收录于OKB-91冷战时期苏联住宅建筑档案。",
+      "ru": "Проект включён в архив жилой архитектуры СССР периода холодной войны ОКБ-91."
+    },
+
+    "document": "1-447S-36-version-of-2606.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2606",
+
+    "pdfPath": "/files/1-447S-36-version-of-2606.pdf",
+
+    "coverImage": "/images/1-447S-36-cover.jpg"
+  }
+]
