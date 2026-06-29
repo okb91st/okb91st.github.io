@@ -34,7 +34,8 @@ function loadAllBlueprints() {
         loadJSON("data/soviet-ww2-bar.json"),
         loadJSON("data/t5455-armored.json"),
         loadJSON("data/1464d-series.json"),
-        loadJSON("data/pr1124-series.json")
+        loadJSON("data/pr1124-series.json"),
+        loadJSON("data/1447S-series.json")
     ]).then(datasets => datasets.flat());
 }
 function loadProjectFromJSON() {
