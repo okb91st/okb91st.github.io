@@ -1,0 +1,125 @@
+[
+  {
+    "id": "redarmy1940riflebattalion-summer",
+
+    "name": {
+      "en": "1940 Red Army Rifle Battalion Set (Summer)",
+      "zh": "1940年苏联红军步兵营整营版（夏季）",
+      "ru": "Набор стрелкового батальона Красной Армии 1940 года (летний)"
+    },
+
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Unit / Paper Model",
+      "zh": "步兵部队 / 纸模",
+      "ru": "Пехотное подразделение / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Красная Армия"
+    },
+
+    "focus": {
+      "en": "Complete Battalion Organization",
+      "zh": "整营编制",
+      "ru": "Полная организация батальона"
+    },
+
+    "description": {
+      "en": "Complete paper model set of a 1940 Soviet Red Army rifle battalion in summer uniform, organized according to the historical table of organization.",
+      "zh": "依据历史编制制作的1940年苏联红军夏季步兵营整营纸模。",
+      "ru": "Комплект бумажных моделей стрелкового батальона Красной Армии образца 1940 года в летней форме согласно историческому штату."
+    },
+
+    "notes": {
+      "en": "Archived as part of the OKB-91 Soviet infantry organization collection.",
+      "zh": "收录于OKB-91苏联步兵编制档案。",
+      "ru": "Входит в архив организации советской пехоты ОКБ-91."
+    },
+
+    "document": "redarmy1940riflebattalion-summer-version-of-2606.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2606",
+
+    "pdfPath": "/files/redarmy1940riflebattalion-summer-version-of-2606.pdf",
+
+    "coverImage": "/images/redarmy1940riflebattalion-summer-cover.jpg"
+  },
+
+  {
+    "id": "redarmy1940riflebattalion-winter",
+
+    "name": {
+      "en": "1940 Red Army Rifle Battalion Set (Winter)",
+      "zh": "1940年苏联红军步兵营整营版（冬季）",
+      "ru": "Набор стрелкового батальона Красной Армии 1940 года (зимний)"
+    },
+
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Unit / Paper Model",
+      "zh": "步兵部队 / 纸模",
+      "ru": "Пехотное подразделение / бумажная модель"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Красная Армия"
+    },
+
+    "focus": {
+      "en": "Complete Battalion Organization",
+      "zh": "整营编制",
+      "ru": "Полная организация батальона"
+    },
+
+    "description": {
+      "en": "Complete paper model set of a 1940 Soviet Red Army rifle battalion in winter uniform, organized according to the historical table of organization.",
+      "zh": "依据历史编制制作的1940年苏联红军冬季步兵营整营纸模。",
+      "ru": "Комплект бумажных моделей стрелкового батальона Красной Армии образца 1940 года в зимней форме согласно историческому штату."
+    },
+
+    "notes": {
+      "en": "Archived as part of the OKB-91 Soviet infantry organization collection.",
+      "zh": "收录于OKB-91苏联步兵编制档案。",
+      "ru": "Входит в архив организации советской пехоты ОКБ-91."
+    },
+
+    "document": "redarmy1940riflebattalion-winter-version-of-2606.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2606",
+
+    "pdfPath": "/files/redarmy1940riflebattalion-winter-version-of-2606.pdf",
+
+    "coverImage": "/images/redarmy1940riflebattalion-winter-cover.jpg"
+  }
+]
