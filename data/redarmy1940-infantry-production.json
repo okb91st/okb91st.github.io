@@ -1,0 +1,125 @@
+[
+  {
+    "id": "redarmy1940infantry-summer",
+
+    "name": {
+      "en": "1940 Red Army Infantry Production Set (Summer)",
+      "zh": "1940年苏联红军步兵量产版（夏季）",
+      "ru": "Серийный набор пехоты Красной Армии 1940 года (летний)"
+    },
+
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Figures / Paper Model",
+      "zh": "步兵纸模",
+      "ru": "Бумажные модели пехоты"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Красная Армия"
+    },
+
+    "focus": {
+      "en": "Mass Production",
+      "zh": "量产设计",
+      "ru": "Серийное производство"
+    },
+
+    "description": {
+      "en": "Mass-production paper model sheet of 1940 Soviet Red Army infantry in summer uniform.",
+      "zh": "1940年苏联红军夏季步兵量产纸模。",
+      "ru": "Бумажная модель пехоты Красной Армии образца 1940 года в летней форме."
+    },
+
+    "notes": {
+      "en": "Archived as part of the OKB-91 Soviet infantry collection.",
+      "zh": "收录于OKB-91苏联步兵档案。",
+      "ru": "Входит в архив советской пехоты ОКБ-91."
+    },
+
+    "document": "redarmy1940infantry-summer-version-of-2606.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2606",
+
+    "pdfPath": "/files/redarmy1940infantry-summer-version-of-2606.pdf",
+
+    "coverImage": "/images/redarmy1940infantry-summer-cover.jpg"
+  },
+
+  {
+    "id": "redarmy1940infantry-winter",
+
+    "name": {
+      "en": "1940 Red Army Infantry Production Set (Winter)",
+      "zh": "1940年苏联红军步兵量产版（冬季）",
+      "ru": "Серийный набор пехоты Красной Армии 1940 года (зимний)"
+    },
+
+    "status": {
+      "en": "Complete",
+      "zh": "完成",
+      "ru": "Завершено"
+    },
+
+    "scale": "1:200",
+
+    "category": {
+      "en": "Infantry Figures / Paper Model",
+      "zh": "步兵纸模",
+      "ru": "Бумажные модели пехоты"
+    },
+
+    "affiliation": {
+      "en": "Soviet Red Army",
+      "zh": "苏联红军",
+      "ru": "Красная Армия"
+    },
+
+    "focus": {
+      "en": "Mass Production",
+      "zh": "量产设计",
+      "ru": "Серийное производство"
+    },
+
+    "description": {
+      "en": "Mass-production paper model sheet of 1940 Soviet Red Army infantry in winter uniform.",
+      "zh": "1940年苏联红军冬季步兵量产纸模。",
+      "ru": "Бумажная модель пехоты Красной Армии образца 1940 года в зимней форме."
+    },
+
+    "notes": {
+      "en": "Archived as part of the OKB-91 Soviet infantry collection.",
+      "zh": "收录于OKB-91苏联步兵档案。",
+      "ru": "Входит в архив советской пехоты ОКБ-91."
+    },
+
+    "document": "redarmy1940infantry-winter-version-of-2606.pdf",
+
+    "documentType": {
+      "en": "Paper Model Layout",
+      "zh": "纸模展开图",
+      "ru": "Развёртка бумажной модели"
+    },
+
+    "versionCode": "2606",
+
+    "pdfPath": "/files/redarmy1940infantry-winter-version-of-2606.pdf",
+
+    "coverImage": "/images/redarmy1940infantry-winter-cover.jpg"
+  }
+]
