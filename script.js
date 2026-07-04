@@ -35,7 +35,9 @@ function loadAllBlueprints() {
         loadJSON("data/t5455-armored.json"),
         loadJSON("data/1464d-series.json"),
         loadJSON("data/pr1124-series.json"),
-        loadJSON("data/1447S-series.json")
+        loadJSON("data/1447S-series.json"),
+        loadJSON("data/redarmy1940-infantry-production.json"),
+        loadJSON("data/redarmy1940-rifle-battalion.json")
     ]).then(datasets => datasets.flat());
 }
 function loadProjectFromJSON() {
