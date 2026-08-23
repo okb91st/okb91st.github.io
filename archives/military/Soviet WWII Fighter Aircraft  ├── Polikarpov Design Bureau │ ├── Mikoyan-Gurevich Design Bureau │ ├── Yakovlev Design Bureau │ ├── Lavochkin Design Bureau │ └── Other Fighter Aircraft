@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Soviet WWII Fighter Aircraft - OKB-91</title>
+
+    <link rel="stylesheet" href="../../style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="nav">
+
+    <a href="/index.html">Home</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/archives/main-archives.html" class="active">Archives</a>
+    <a href="/about.html">About</a>
+
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('zh')">中文</button>
+    <button onclick="setLang('ru')">RU</button>
+
+</div>
+
+
+<div class="project">
+
+
+<h2>
+
+<span data-lang="en">
+Soviet WWII Fighter Aircraft
+</span>
+
+<span data-lang="zh" style="display:none;">
+苏联二战战斗机
+</span>
+
+<span data-lang="ru" style="display:none;">
+Истребительная авиация СССР периода Второй мировой войны
+</span>
+
+</h2>
+
+
+<p data-lang="en">
+Fighter aircraft developed and operated by the Soviet Air Forces during the Second World War, classified according to aircraft design bureaus.
+</p>
+
+
+<p data-lang="zh" style="display:none;">
+第二次世界大战期间苏联空军研发和使用的战斗机档案，按照飞机设计局进行分类。
+</p>
+
+
+<p data-lang="ru" style="display:none;">
+Архив истребительной авиации СССР периода Второй мировой войны, классифицированной по конструкторским бюро.
+</p>
+
+
+<ul>
+
+
+<li>
+
+<a href="soviet-ww2-polikarpov-fighters.html">
+
+<span data-lang="en">
+Polikarpov Design Bureau
+</span>
+
+<span data-lang="zh" style="display:none;">
+波利卡波夫设计局
+</span>
+
+<span data-lang="ru" style="display:none;">
+Конструкторское бюро Поликарпова
+</span>
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a href="soviet-ww2-mig-fighters.html">
+
+<span data-lang="en">
+Mikoyan-Gurevich Design Bureau
+</span>
+
+<span data-lang="zh" style="display:none;">
+米高扬-格列维奇设计局
+</span>
+
+<span data-lang="ru" style="display:none;">
+Конструкторское бюро Микояна и Гуревича
+</span>
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a href="soviet-ww2-yakovlev-fighters.html">
+
+<span data-lang="en">
+Yakovlev Design Bureau
+</span>
+
+<span data-lang="zh" style="display:none;">
+雅克福列夫设计局
+</span>
+
+<span data-lang="ru" style="display:none;">
+Конструкторское бюро Яковлева
+</span>
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a href="soviet-ww2-lavochkin-fighters.html">
+
+<span data-lang="en">
+Lavochkin Design Bureau
+</span>
+
+<span data-lang="zh" style="display:none;">
+拉沃奇金设计局
+</span>
+
+<span data-lang="ru" style="display:none;">
+Конструкторское бюро Лавочкина
+</span>
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<span data-lang="en">
+Other Fighter Aircraft
+</span>
+
+<span data-lang="zh" style="display:none;">
+其他战斗机
+</span>
+
+<span data-lang="ru" style="display:none;">
+Другие истребители
+</span>
+
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+<script src="../../script.js"></script>
+
+
+</body>
+
+</html>
