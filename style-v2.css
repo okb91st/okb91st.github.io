@@ -581,7 +581,7 @@ a {
     display: grid;
 
     grid-template-columns:
-        90px 1fr;
+        110px 1fr;
 
     align-items: center;
 
@@ -1497,4 +1497,15 @@ a {
         font-size: 35px;
     }
 
+}
+
+/* ============================================================
+   22.ARCHIVE CUSTOM ICONS
+   ============================================================ */
+
+.archive-section-icon-image {
+    width: 88px;
+    height: 88px;
+    display: block;
+    object-fit: contain;
 }
