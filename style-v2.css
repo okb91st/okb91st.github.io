@@ -1,0 +1,1500 @@
+/* ============================================================
+   OKB-91 ARCHIVE SYSTEM — STYLE V2
+   ============================================================ */
+
+
+/* ============================================================
+   1. DESIGN TOKENS
+   ============================================================ */
+
+:root {
+
+    /* Background */
+    --bg-main: #07141c;
+    --bg-deep: #040d13;
+    --bg-header: #061119;
+
+    /* Panels */
+    --panel: #0b1a23;
+    --panel-light: #10232d;
+    --panel-hover: #132a35;
+
+    /* Borders */
+    --border: #263943;
+    --border-soft: #172c36;
+    --border-strong: #39515e;
+
+    /* Text */
+    --text-main: #f1f1ee;
+    --text-secondary: #c3ccd1;
+    --text-muted: #82939d;
+
+    /* OKB-91 Accent */
+    --accent: #f2b600;
+    --accent-bright: #ffd23f;
+    --accent-dark: #a97f00;
+
+    /* Layout */
+    --content-width: 1180px;
+
+    /* Radius */
+    --radius-small: 5px;
+    --radius-medium: 7px;
+}
+
+
+
+/* ============================================================
+   2. RESET / GLOBAL
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    margin: 0;
+
+    min-height: 100vh;
+
+    background-color: var(--bg-main);
+
+    background-image:
+
+        linear-gradient(
+            rgba(52, 83, 97, 0.10) 1px,
+            transparent 1px
+        ),
+
+        linear-gradient(
+            90deg,
+            rgba(52, 83, 97, 0.10) 1px,
+            transparent 1px
+        ),
+
+        radial-gradient(
+            circle at 50% 0%,
+            #102733 0%,
+            #07141c 48%,
+            #040d13 100%
+        );
+
+    background-size:
+        90px 90px,
+        90px 90px,
+        100% 100%;
+
+    color: var(--text-main);
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    line-height: 1.5;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+/* ============================================================
+   3. SITE HEADER
+   ============================================================ */
+
+.site-header {
+
+    position: relative;
+
+    z-index: 100;
+
+    background:
+        rgba(4, 13, 19, 0.96);
+
+    border-bottom:
+        1px solid var(--border);
+}
+
+
+.nav {
+
+    width:
+        min(
+            var(--content-width),
+            calc(100% - 48px)
+        );
+
+    min-height: 72px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    align-items: center;
+}
+
+
+
+/* ============================================================
+   4. BRAND
+   ============================================================ */
+
+.brand {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-right: auto;
+
+    transition:
+        opacity 0.2s ease;
+}
+
+
+.brand:hover {
+    opacity: 0.88;
+}
+
+
+.brand-mark {
+
+    width: 48px;
+    height: 48px;
+
+    margin-right: 11px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #d9281c;
+
+    font-size: 44px;
+
+    line-height: 1;
+
+    text-shadow:
+        0 0 1px var(--accent),
+        0 0 8px rgba(242, 182, 0, 0.18);
+}
+
+
+.brand-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    line-height: 1.05;
+}
+
+
+.brand-name {
+
+    color: var(--accent);
+
+    font-size: 22px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.4px;
+}
+
+
+.brand-subtitle {
+
+    margin-top: 4px;
+
+    color: var(--text-secondary);
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.7px;
+}
+
+
+
+/* ============================================================
+   5. MAIN NAVIGATION
+   ============================================================ */
+
+.main-nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 48px;
+
+    margin-right: 55px;
+}
+
+
+.main-nav a {
+
+    position: relative;
+
+    padding: 25px 0 23px;
+
+    color: var(--text-main);
+
+    font-size: 17px;
+
+    transition:
+        color 0.18s ease;
+}
+
+
+.main-nav a:hover,
+.main-nav a.active {
+
+    color: var(--accent);
+}
+
+
+.main-nav a.active::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    bottom: 17px;
+
+    height: 2px;
+
+    background: var(--accent);
+}
+
+
+
+/* ============================================================
+   6. LANGUAGE SWITCHER
+   ============================================================ */
+
+.language-switcher {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.language-switcher button {
+
+    min-width: 48px;
+
+    height: 36px;
+
+    padding: 0 10px;
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        var(--radius-small);
+
+    background:
+        rgba(255, 255, 255, 0.015);
+
+    color:
+        var(--text-main);
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        color 0.18s ease,
+        border-color 0.18s ease,
+        background 0.18s ease;
+}
+
+
+.language-switcher button:hover {
+
+    color: var(--accent);
+
+    border-color: var(--accent);
+
+    background:
+        rgba(242, 182, 0, 0.05);
+}
+
+
+
+/* ============================================================
+   7. BREADCRUMB
+   ============================================================ */
+
+.breadcrumb-wrapper {
+
+    background:
+        rgba(4, 13, 19, 0.58);
+
+    border-bottom:
+        1px solid var(--border);
+}
+
+
+.breadcrumb {
+
+    width:
+        min(
+            var(--content-width),
+            calc(100% - 48px)
+        );
+
+    min-height: 46px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    color:
+        var(--text-secondary);
+
+    font-size: 15px;
+}
+
+
+.breadcrumb a {
+
+    transition:
+        color 0.18s ease;
+}
+
+
+.breadcrumb a:hover {
+
+    color: var(--accent);
+}
+
+
+.breadcrumb-current {
+
+    color: var(--accent);
+
+    font-weight: 600;
+}
+
+
+.breadcrumb-separator {
+
+    color: var(--text-muted);
+
+    user-select: none;
+}
+
+
+
+/* ============================================================
+   8. MAIN ARCHIVE PAGE
+   ============================================================ */
+
+.archive-page {
+
+    width:
+        min(
+            var(--content-width),
+            calc(100% - 48px)
+        );
+
+    margin: 0 auto;
+
+    padding:
+        42px 0 70px;
+}
+
+
+
+/* ============================================================
+   9. DIRECTORY PAGE HEADER
+   ============================================================ */
+
+.directory-heading {
+
+    margin-bottom: 30px;
+
+    padding:
+        0 4px 32px;
+
+    border-bottom:
+        1px solid var(--border);
+}
+
+
+.directory-label {
+
+    margin-bottom: 7px;
+
+    color: var(--accent);
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 2.2px;
+}
+
+
+.directory-title {
+
+    margin: 0;
+
+    color: var(--text-main);
+
+    font-size: 44px;
+
+    line-height: 1.15;
+
+    font-weight: 750;
+
+    letter-spacing: -0.6px;
+}
+
+
+.directory-description {
+
+    max-width: 800px;
+
+    margin:
+        14px 0 0;
+
+    color:
+        var(--text-secondary);
+
+    font-size: 18px;
+
+    line-height: 1.6;
+}
+
+
+
+/* ============================================================
+   10. ARCHIVE SECTIONS
+   ============================================================ */
+
+.archive-section {
+
+    position: relative;
+
+    margin-bottom: 16px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            105deg,
+            rgba(13, 30, 40, 0.96),
+            rgba(9, 24, 33, 0.94)
+        );
+
+    border:
+        1px solid var(--border-soft);
+
+    border-radius:
+        var(--radius-medium);
+
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease;
+}
+
+
+.archive-section:hover {
+
+    border-color:
+        var(--border-strong);
+
+    background:
+        linear-gradient(
+            105deg,
+            rgba(16, 36, 47, 0.98),
+            rgba(10, 27, 36, 0.96)
+        );
+}
+
+
+
+/* Yellow technical accent */
+
+.archive-section::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 3px;
+
+    background:
+        var(--accent);
+
+    opacity: 0.82;
+}
+
+
+
+/* ============================================================
+   11. ARCHIVE SECTION HEADER
+   ============================================================ */
+
+.archive-section-header {
+
+    display: grid;
+
+    grid-template-columns:
+        90px 1fr;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding:
+        26px 32px 22px;
+}
+
+
+.archive-section-icon {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: var(--accent);
+
+    font-size: 48px;
+
+    line-height: 1;
+
+    user-select: none;
+}
+
+
+.archive-section-title {
+
+    margin: 0;
+
+    color: var(--accent);
+
+    font-size: 27px;
+
+    line-height: 1.25;
+
+    font-weight: 750;
+}
+
+
+.archive-section-description {
+
+    max-width: 800px;
+
+    margin:
+        5px 0 0;
+
+    color:
+        var(--text-secondary);
+
+    font-size: 16px;
+
+    line-height: 1.55;
+}
+
+
+
+/* ============================================================
+   12. COUNTRY AREA
+   ============================================================ */
+
+.archive-countries {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 12px;
+
+    padding:
+        0 32px 30px 122px;
+}
+
+
+
+/* ============================================================
+   13. COUNTRY BLOCK
+   ============================================================ */
+
+.country-block {
+
+    min-width: 0;
+
+    padding:
+        17px 18px 18px;
+
+    background:
+        rgba(3, 13, 19, 0.42);
+
+    border:
+        1px solid var(--border-soft);
+
+    border-radius:
+        var(--radius-small);
+
+    transition:
+        background 0.18s ease,
+        border-color 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+.country-block:hover {
+
+    background:
+        rgba(13, 34, 44, 0.75);
+
+    border-color:
+        var(--border-strong);
+
+    transform:
+        translateY(-2px);
+}
+
+
+.country-name {
+
+    margin-bottom: 12px;
+
+    padding-bottom: 9px;
+
+    border-bottom:
+        1px solid var(--border);
+
+    color:
+        var(--text-main);
+
+    font-size: 18px;
+
+    font-weight: 750;
+
+    letter-spacing: 0.5px;
+}
+
+
+
+/* ============================================================
+   14. HISTORICAL PERIOD BUTTONS
+   ============================================================ */
+
+.archive-periods {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+
+.archive-period {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    min-height: 39px;
+
+    padding:
+        8px 34px 8px 12px;
+
+    background:
+        rgba(255, 255, 255, 0.018);
+
+    border:
+        1px solid transparent;
+
+    border-radius:
+        4px;
+
+    color:
+        var(--text-secondary);
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 1.35;
+
+    transition:
+        color 0.18s ease,
+        background 0.18s ease,
+        border-color 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+/* Arrow */
+
+.archive-period::after {
+
+    content: "›";
+
+    position: absolute;
+
+    right: 12px;
+
+    top: 50%;
+
+    transform:
+        translateY(-53%);
+
+    color:
+        var(--accent);
+
+    font-size: 25px;
+
+    font-weight: 300;
+
+    transition:
+        right 0.18s ease,
+        color 0.18s ease;
+}
+
+
+.archive-period:hover {
+
+    color:
+        var(--accent-bright);
+
+    background:
+        rgba(242, 182, 0, 0.055);
+
+    border-color:
+        rgba(242, 182, 0, 0.25);
+
+    transform:
+        translateX(2px);
+}
+
+
+.archive-period:hover::after {
+
+    right: 8px;
+
+    color:
+        var(--accent-bright);
+}
+
+
+
+/* ============================================================
+   15. FICTIONAL ARCHIVE VARIANT
+   ============================================================ */
+
+.archive-section-fictional {
+
+    margin-top: 24px;
+}
+
+
+.archive-section-fictional::before {
+
+    opacity: 0.48;
+}
+
+
+
+/* ============================================================
+   16. STANDARD ARCHIVE ENTRY
+   Used later by category pages
+   ============================================================ */
+
+.archive-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+.archive-entry {
+
+    min-height: 116px;
+
+    display: grid;
+
+    grid-template-columns:
+        135px 1fr 70px;
+
+    align-items: center;
+
+    background:
+        rgba(13, 30, 40, 0.90);
+
+    border:
+        1px solid var(--border-soft);
+
+    border-radius:
+        var(--radius-medium);
+
+    transition:
+        background 0.18s ease,
+        border-color 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+.archive-entry:hover {
+
+    background:
+        var(--panel-hover);
+
+    border-color:
+        var(--border-strong);
+
+    transform:
+        translateX(3px);
+}
+
+
+.entry-icon {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color:
+        var(--accent);
+
+    font-size: 52px;
+}
+
+
+.entry-icon img {
+
+    width: 64px;
+    height: 64px;
+
+    object-fit: contain;
+}
+
+
+.entry-content {
+
+    padding:
+        17px 0;
+}
+
+
+.entry-title {
+
+    margin:
+        0 0 3px;
+
+    color:
+        var(--accent);
+
+    font-size: 23px;
+
+    line-height: 1.3;
+
+    font-weight: 750;
+}
+
+
+.entry-description {
+
+    margin: 0;
+
+    max-width: 820px;
+
+    color:
+        var(--text-secondary);
+
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+
+.entry-subcategories {
+
+    margin:
+        5px 0 0;
+
+    padding-left:
+        21px;
+
+    color:
+        var(--text-secondary);
+
+    font-size: 16px;
+}
+
+
+.entry-subcategories li {
+
+    margin:
+        2px 0;
+}
+
+
+.entry-arrow {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color:
+        var(--accent);
+
+    font-size: 48px;
+
+    line-height: 1;
+
+    transition:
+        color 0.18s ease,
+        transform 0.18s ease;
+}
+
+
+.archive-entry:hover
+.entry-arrow {
+
+    color:
+        var(--accent-bright);
+
+    transform:
+        translateX(5px);
+}
+
+
+
+/* ============================================================
+   17. STANDARD ARCHIVE HEADING
+   Used later by category pages
+   ============================================================ */
+
+.archive-heading {
+
+    display: grid;
+
+    grid-template-columns:
+        90px 1fr;
+
+    column-gap: 22px;
+
+    padding:
+        0 8px 28px;
+
+    margin-bottom:
+        22px;
+
+    border-bottom:
+        1px solid var(--border);
+}
+
+
+.archive-heading-icon {
+
+    width: 82px;
+    height: 82px;
+
+    grid-row:
+        1 / 3;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color:
+        var(--accent);
+
+    font-size: 64px;
+}
+
+
+.archive-heading-icon img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+.archive-title {
+
+    margin: 0;
+
+    padding-bottom:
+        13px;
+
+    border-bottom:
+        1px solid var(--accent);
+
+    color:
+        var(--accent);
+
+    font-size: 40px;
+
+    line-height: 1.15;
+
+    font-weight: 750;
+}
+
+
+.archive-description {
+
+    max-width: 900px;
+
+    margin:
+        13px 0 0;
+
+    color:
+        var(--text-secondary);
+
+    font-size: 18px;
+
+    line-height: 1.55;
+}
+
+
+
+/* ============================================================
+   18. FOOTER
+   ============================================================ */
+
+.site-footer {
+
+    margin-top: 20px;
+
+    background:
+        rgba(4, 13, 19, 0.72);
+
+    border-top:
+        1px solid var(--border);
+}
+
+
+.footer-content {
+
+    width:
+        min(
+            var(--content-width),
+            calc(100% - 48px)
+        );
+
+    margin:
+        0 auto;
+
+    padding:
+        20px 0;
+
+    color:
+        var(--text-muted);
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    letter-spacing: 1.2px;
+}
+
+
+
+/* ============================================================
+   19. TABLET
+   ============================================================ */
+
+@media
+(max-width: 1000px) {
+
+    .main-nav {
+
+        gap: 25px;
+
+        margin-right: 25px;
+    }
+
+
+    .brand-subtitle {
+
+        display: none;
+    }
+
+
+    .archive-countries {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+
+/* ============================================================
+   20. SMALL TABLET
+   ============================================================ */
+
+@media
+(max-width: 780px) {
+
+    .nav {
+
+        padding:
+            13px 0;
+
+        flex-wrap: wrap;
+
+        row-gap: 12px;
+    }
+
+
+    .brand {
+
+        width: 100%;
+    }
+
+
+    .language-switcher {
+
+        position: absolute;
+
+        top: 17px;
+        right: 24px;
+    }
+
+
+    .main-nav {
+
+        width: 100%;
+
+        order: 2;
+
+        justify-content:
+            space-between;
+
+        margin: 0;
+
+        gap: 12px;
+    }
+
+
+    .main-nav a {
+
+        padding:
+            6px 0;
+    }
+
+
+    .main-nav a.active::after {
+
+        bottom: 0;
+    }
+
+
+    .directory-title {
+
+        font-size: 36px;
+    }
+
+
+    .archive-section-header {
+
+        grid-template-columns:
+            65px 1fr;
+
+        padding:
+            23px 22px 19px;
+    }
+
+
+    .archive-section-icon {
+
+        font-size: 40px;
+    }
+
+
+    .archive-countries {
+
+        padding:
+            0 22px 24px 87px;
+
+        grid-template-columns:
+            1fr;
+    }
+
+}
+
+
+
+/* ============================================================
+   21. MOBILE
+   ============================================================ */
+
+@media
+(max-width: 560px) {
+
+    :root {
+
+        --content-width:
+            100%;
+    }
+
+
+    .nav,
+    .breadcrumb,
+    .archive-page,
+    .footer-content {
+
+        width:
+            calc(100% - 28px);
+    }
+
+
+    .brand-mark {
+
+        width: 38px;
+        height: 38px;
+
+        font-size: 35px;
+    }
+
+
+    .brand-name {
+
+        font-size: 19px;
+    }
+
+
+    .language-switcher {
+
+        right: 14px;
+    }
+
+
+    .language-switcher button {
+
+        min-width: 39px;
+
+        height: 32px;
+
+        padding:
+            0 6px;
+
+        font-size: 12px;
+    }
+
+
+    .main-nav a {
+
+        font-size: 14px;
+    }
+
+
+    .archive-page {
+
+        padding-top:
+            29px;
+    }
+
+
+    .directory-heading {
+
+        padding-bottom:
+            24px;
+    }
+
+
+    .directory-label {
+
+        font-size: 10px;
+    }
+
+
+    .directory-title {
+
+        font-size: 31px;
+    }
+
+
+    .directory-description {
+
+        font-size: 16px;
+    }
+
+
+    .archive-section-header {
+
+        display: block;
+
+        padding:
+            22px 19px 15px;
+    }
+
+
+    .archive-section-icon {
+
+        justify-content:
+            flex-start;
+
+        margin-bottom:
+            10px;
+
+        font-size: 35px;
+    }
+
+
+    .archive-section-title {
+
+        font-size: 23px;
+    }
+
+
+    .archive-section-description {
+
+        font-size: 15px;
+    }
+
+
+    .archive-countries {
+
+        display: block;
+
+        padding:
+            0 19px 20px;
+    }
+
+
+    .country-block {
+
+        margin-top:
+            10px;
+    }
+
+
+    .archive-heading {
+
+        display: block;
+
+        padding-left:
+            0;
+
+        padding-right:
+            0;
+    }
+
+
+    .archive-heading-icon {
+
+        width: 55px;
+        height: 55px;
+
+        margin-bottom:
+            10px;
+
+        font-size: 44px;
+    }
+
+
+    .archive-title {
+
+        font-size: 29px;
+    }
+
+
+    .archive-description {
+
+        font-size: 16px;
+    }
+
+
+    .archive-entry {
+
+        grid-template-columns:
+            67px 1fr 34px;
+
+        min-height:
+            96px;
+    }
+
+
+    .entry-icon {
+
+        font-size: 37px;
+    }
+
+
+    .entry-icon img {
+
+        width: 43px;
+        height: 43px;
+    }
+
+
+    .entry-title {
+
+        font-size: 19px;
+    }
+
+
+    .entry-description,
+    .entry-subcategories {
+
+        font-size: 14px;
+    }
+
+
+    .entry-arrow {
+
+        font-size: 35px;
+    }
+
+}
