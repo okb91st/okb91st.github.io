@@ -593,16 +593,16 @@ a {
 
 
 .archive-section-icon {
+    width: 110px;
+    height: 90px;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
     color: var(--accent);
 
     font-size: 48px;
-
     line-height: 1;
 
     user-select: none;
@@ -1504,8 +1504,9 @@ a {
    ============================================================ */
 
 .archive-section-icon-image {
-    width: 88px;
-    height: 88px;
+    width: 100%;
+    height: 100%;
+
     display: block;
     object-fit: contain;
 }
