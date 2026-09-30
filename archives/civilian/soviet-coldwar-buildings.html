@@ -1,148 +1,320 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Soviet Buildings - OKB-91</title>
-    <link rel="stylesheet" href="/style.css">
+
+    <link rel="stylesheet" href="/style-v2.css">
 </head>
 
 <body>
 
-<div class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/archives/main-archives.html" class="active">Archives</a>
-    <a href="/about.html">About</a>
+<header class="site-header">
+    <div class="nav">
 
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('ru')">RU</button>
+        <a href="/index.html" class="brand">
+            <div class="brand-mark">★</div>
+
+            <div>
+                <div class="brand-name">OKB-91</div>
+                <div class="brand-subtitle">
+                    SOVIET & EASTERN BLOC ARCHIVE
+                </div>
+            </div>
+        </a>
+
+        <nav class="main-nav">
+
+            <a href="/index.html">
+                <span data-lang="en">Home</span>
+                <span data-lang="zh">主页</span>
+                <span data-lang="ru">Главная</span>
+            </a>
+
+            <a href="/projects.html">
+                <span data-lang="en">Projects</span>
+                <span data-lang="zh">项目</span>
+                <span data-lang="ru">Проекты</span>
+            </a>
+
+            <a href="/archives/main-archives.html">
+                <span data-lang="en">Archives</span>
+                <span data-lang="zh">档案</span>
+                <span data-lang="ru">Архивы</span>
+            </a>
+
+            <a href="/about.html">
+                <span data-lang="en">About</span>
+                <span data-lang="zh">关于</span>
+                <span data-lang="ru">О нас</span>
+            </a>
+
+        </nav>
+
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('zh')">中文</button>
+            <button onclick="setLanguage('ru')">RU</button>
+        </div>
+
+    </div>
+</header>
+
+
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+
+        <a href="/archives/main-archives.html">
+            <span data-lang="en">Archives</span>
+            <span data-lang="zh">档案</span>
+            <span data-lang="ru">Архивы</span>
+        </a>
+
+        <span>›</span>
+
+        <a href="/archives/civilian/soviet-coldwar-civilian.html">
+            <span data-lang="en">Cold War Soviet Civilian Systems</span>
+            <span data-lang="zh">冷战苏联民生系统</span>
+            <span data-lang="ru">Гражданские системы СССР периода холодной войны</span>
+        </a>
+
+        <span>›</span>
+
+        <span data-lang="en">Soviet Buildings</span>
+        <span data-lang="zh">苏联建筑</span>
+        <span data-lang="ru">Советские здания</span>
+
+    </div>
 </div>
 
-<div class="project">
 
-    <h2>
+<main class="archive-page">
 
-        <span data-lang="en">
-            Soviet Buildings
-        </span>
+    <section class="directory-heading">
 
-        <span data-lang="zh" style="display:none;">
-            冷战苏联建筑
-        </span>
+        <div class="directory-label">
+            USSR · COLD WAR · CIVILIAN BUILDINGS
+        </div>
 
-        <span data-lang="ru" style="display:none;">
-            Советские здания периода холодной войны
-        </span>
+        <h1 class="directory-title">
 
-    </h2>
+            <span data-lang="en">
+                Soviet Buildings
+            </span>
 
-    <p data-lang="en">
-        Civilian buildings, infrastructure systems, public facilities, and residential architecture of the Soviet Union during the Cold War.
-    </p>
+            <span data-lang="zh">
+                冷战苏联建筑
+            </span>
 
-    <p data-lang="zh" style="display:none;">
-        冷战时期苏联民用建筑、基础设施、公共服务设施与居住建筑档案。
-    </p>
+            <span data-lang="ru">
+                Советские здания периода холодной войны
+            </span>
 
-    <p data-lang="ru" style="display:none;">
-        Архивы гражданских зданий, инфраструктуры, общественных объектов и жилой архитектуры СССР периода холодной войны.
-    </p>
+        </h1>
 
-    <ul>
 
-        <li>
-            <a href="/archives/civilian/soviet-coldwar-infrastructure.html">
+        <p class="directory-description" data-lang="en">
+            Civilian buildings, infrastructure systems, public facilities,
+            residential architecture, and industrial structures of the
+            Soviet Union during the Cold War.
+        </p>
 
-                <span data-lang="en">
-                    Infrastructure
-                </span>
+        <p class="directory-description" data-lang="zh">
+            冷战时期苏联民用建筑、基础设施、公共服务设施、
+            居住建筑与工业设施档案。
+        </p>
 
-                <span data-lang="zh" style="display:none;">
-                    基础设施
-                </span>
+        <p class="directory-description" data-lang="ru">
+            Архив гражданских зданий, инфраструктуры, общественных объектов,
+            жилой архитектуры и промышленных сооружений СССР
+            периода холодной войны.
+        </p>
 
-                <span data-lang="ru" style="display:none;">
-                    Инфраструктура
-                </span>
+    </section>
 
-            </a>
-        </li>
 
-        <li>
-            <a href="/archives/civilian/soviet-coldwar-public-services.html">
+    <section class="archive-section">
 
-                <span data-lang="en">
-                    Public Services
-                </span>
+        <div class="archive-section-header">
 
-                <span data-lang="zh" style="display:none;">
-                    公共服务
-                </span>
+            <div class="archive-section-icon">
+                <img src="/images/icons/soviet-coldwar-buildings.svg"
+                     alt=""
+                     class="archive-section-icon-image">
+            </div>
 
-                <span data-lang="ru" style="display:none;">
-                    Общественные службы
-                </span>
+            <div>
 
-            </a>
-        </li>
+                <h2 class="archive-section-title">
 
-        <li>
-            <a href="/archives/civilian/soviet-coldwar-residential-buildings.html">
+                    <span data-lang="en">
+                        Soviet Built Environment
+                    </span>
 
-                <span data-lang="en">
-                    Residential Buildings
-                </span>
+                    <span data-lang="zh">
+                        苏联建筑与建成环境
+                    </span>
 
-                <span data-lang="zh" style="display:none;">
-                    居住设施
-                </span>
+                    <span data-lang="ru">
+                        Советская застроенная среда
+                    </span>
 
-                <span data-lang="ru" style="display:none;">
-                    Жилые здания
-                </span>
+                </h2>
 
-            </a>
-        </li>
 
-        <li>
-            <a href="/archives/civilian/soviet-coldwar-industrial-facilities.html">
+                <p class="archive-section-description" data-lang="en">
+                    Architectural and infrastructure systems are organized
+                    by their primary function within the Soviet civilian
+                    built environment.
+                </p>
 
-                <span data-lang="en">
-                    Industrial Facilities
-                </span>
+                <p class="archive-section-description" data-lang="zh">
+                    苏联民用建成环境按照建筑与基础设施的主要功能分类整理。
+                </p>
 
-                <span data-lang="zh" style="display:none;">
-                    工业设施
-                </span>
+                <p class="archive-section-description" data-lang="ru">
+                    Архитектурные и инфраструктурные объекты организованы
+                    по их основному назначению в гражданской застройке СССР.
+                </p>
 
-                <span data-lang="ru" style="display:none;">
-                    Промышленные объекты
-                </span>
+            </div>
 
-            </a>
-        </li>
+        </div>
 
-        <li>
-            <a href="/archives/civilian/soviet-coldwar-other-structures.html">
 
-                <span data-lang="en">
-                    Other Structures
-                </span>
+        <div class="archive-countries">
 
-                <span data-lang="zh" style="display:none;">
-                    其他
-                </span>
+            <div class="country-block">
 
-                <span data-lang="ru" style="display:none;">
-                    Прочие сооружения
-                </span>
+                <h3 class="country-name">
 
-            </a>
-        </li>
+                    <span data-lang="en">
+                        Building & Infrastructure Archives
+                    </span>
 
-    </ul>
+                    <span data-lang="zh">
+                        建筑与基础设施档案
+                    </span>
 
-</div>
+                    <span data-lang="ru">
+                        Архив зданий и инфраструктуры
+                    </span>
+
+                </h3>
+
+
+                <div class="archive-periods">
+
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-infrastructure.html">
+
+                        <span data-lang="en">
+                            Infrastructure
+                        </span>
+
+                        <span data-lang="zh">
+                            基础设施
+                        </span>
+
+                        <span data-lang="ru">
+                            Инфраструктура
+                        </span>
+
+                    </a>
+
+
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-public-services.html">
+
+                        <span data-lang="en">
+                            Public Services
+                        </span>
+
+                        <span data-lang="zh">
+                            公共服务
+                        </span>
+
+                        <span data-lang="ru">
+                            Общественные службы
+                        </span>
+
+                    </a>
+
+
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-residential-buildings.html">
+
+                        <span data-lang="en">
+                            Residential Buildings
+                        </span>
+
+                        <span data-lang="zh">
+                            居住建筑
+                        </span>
+
+                        <span data-lang="ru">
+                            Жилые здания
+                        </span>
+
+                    </a>
+
+
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-industrial-facilities.html">
+
+                        <span data-lang="en">
+                            Industrial Facilities
+                        </span>
+
+                        <span data-lang="zh">
+                            工业设施
+                        </span>
+
+                        <span data-lang="ru">
+                            Промышленные объекты
+                        </span>
+
+                    </a>
+
+
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-other-structures.html">
+
+                        <span data-lang="en">
+                            Other Structures
+                        </span>
+
+                        <span data-lang="zh">
+                            其他建筑与构筑物
+                        </span>
+
+                        <span data-lang="ru">
+                            Прочие сооружения
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-content">
+        OKB-91 · ARCHIVE SYSTEM
+    </div>
+
+</footer>
+
 
 <script src="/script.js"></script>
 
