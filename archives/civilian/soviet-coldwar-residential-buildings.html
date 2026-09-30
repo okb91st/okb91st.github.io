@@ -1,160 +1,278 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Soviet Residential Buildings - OKB-91</title>
-    <link rel="stylesheet" href="/style.css">
+
+    <link rel="stylesheet" href="/style-v2.css">
 </head>
 
 <body>
 
-<div class="nav">
+<header class="site-header">
+    <div class="nav">
 
-    <a href="/index.html">Home</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/archives/main-archives.html" class="active">Archives</a>
-    <a href="/about.html">About</a>
+        <a href="/index.html" class="brand">
+            <div class="brand-mark">★</div>
 
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('ru')">RU</button>
+            <div>
+                <div class="brand-name">OKB-91</div>
+                <div class="brand-subtitle">
+                    SOVIET & EASTERN BLOC ARCHIVE
+                </div>
+            </div>
+        </a>
 
+        <nav class="main-nav">
+
+            <a href="/index.html">
+                <span data-lang="en">Home</span>
+                <span data-lang="zh">主页</span>
+                <span data-lang="ru">Главная</span>
+            </a>
+
+            <a href="/projects.html">
+                <span data-lang="en">Projects</span>
+                <span data-lang="zh">项目</span>
+                <span data-lang="ru">Проекты</span>
+            </a>
+
+            <a href="/archives/main-archives.html">
+                <span data-lang="en">Archives</span>
+                <span data-lang="zh">档案</span>
+                <span data-lang="ru">Архивы</span>
+            </a>
+
+            <a href="/about.html">
+                <span data-lang="en">About</span>
+                <span data-lang="zh">关于</span>
+                <span data-lang="ru">О нас</span>
+            </a>
+
+        </nav>
+
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('zh')">中文</button>
+            <button onclick="setLanguage('ru')">RU</button>
+        </div>
+
+    </div>
+</header>
+
+
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+
+        <a href="/archives/main-archives.html">
+            <span data-lang="en">Archives</span>
+            <span data-lang="zh">档案</span>
+            <span data-lang="ru">Архивы</span>
+        </a>
+
+        <span>›</span>
+
+        <a href="/archives/civilian/soviet-coldwar-civilian.html">
+            <span data-lang="en">Cold War Soviet Civilian Systems</span>
+            <span data-lang="zh">冷战苏联民生系统</span>
+            <span data-lang="ru">Гражданские системы СССР периода холодной войны</span>
+        </a>
+
+        <span>›</span>
+
+        <a href="/archives/civilian/soviet-coldwar-buildings.html">
+            <span data-lang="en">Soviet Buildings</span>
+            <span data-lang="zh">苏联建筑</span>
+            <span data-lang="ru">Советские здания</span>
+        </a>
+
+        <span>›</span>
+
+        <span data-lang="en">Residential Buildings</span>
+        <span data-lang="zh">住宅建筑</span>
+        <span data-lang="ru">Жилые здания</span>
+
+    </div>
 </div>
 
-<div class="project">
 
-    <h2>
+<main class="archive-page">
 
-        <span data-lang="en">
-            Soviet Residential Buildings
-        </span>
+    <section class="directory-heading">
 
-        <span data-lang="zh" style="display:none;">
-            苏联居住设施
-        </span>
+        <div class="directory-label">
+            USSR · COLD WAR · RESIDENTIAL ARCHITECTURE
+        </div>
 
-        <span data-lang="ru" style="display:none;">
-            Советские жилые здания
-        </span>
+        <h1 class="directory-title">
 
-    </h2>
+            <span data-lang="en">
+                Soviet Residential Buildings
+            </span>
 
-    <p data-lang="en">
-        Residential architecture and housing systems of the Soviet Union during the Cold War period.
-    </p>
+            <span data-lang="zh">
+                苏联住宅建筑
+            </span>
 
-    <p data-lang="zh" style="display:none;">
-        冷战时期苏联住宅建筑与住房体系档案。
-    </p>
+            <span data-lang="ru">
+                Советские жилые здания
+            </span>
 
-    <p data-lang="ru" style="display:none;">
-        Архивы жилой архитектуры и жилищных систем СССР периода холодной войны.
-    </p>
+        </h1>
 
-    <ul>
 
-        <li>
+        <p class="directory-description" data-lang="en">
+            Residential architecture and housing systems of the Soviet Union
+            during the Cold War, organized by major construction methods
+            and housing types.
+        </p>
 
-            <a href="/archives/civilian/soviet-coldwar-wooden-buildings.html">
+        <p class="directory-description" data-lang="zh">
+            冷战时期苏联住宅建筑与住房体系档案，
+            按主要建筑结构、建造方式与住宅类型进行分类。
+        </p>
 
-                <span data-lang="en">
-                    Wooden Buildings
-                </span>
+        <p class="directory-description" data-lang="ru">
+            Архив жилой архитектуры и жилищных систем СССР периода холодной войны,
+            организованный по основным конструктивным системам,
+            методам строительства и типам жилья.
+        </p>
 
-                <span data-lang="zh" style="display:none;">
-                    木结构建筑
-                </span>
+    </section>
 
-                <span data-lang="ru" style="display:none;">
-                    Деревянные здания
-                </span>
 
-            </a>
+    <section class="archive-section">
 
-        </li>
+        <div class="archive-section-header">
 
-        <li>
+            <div class="archive-section-icon">
+                <img src="/images/icons/soviet-coldwar-residential-buildings.svg"
+                     alt=""
+                     class="archive-section-icon-image">
+            </div>
 
-            <a href="/archives/civilian/soviet-coldwar-brick-buildings.html">
+            <div>
 
-                <span data-lang="en">
-                    Brick Buildings
-                </span>
+                <h2 class="archive-section-title">
 
-                <span data-lang="zh" style="display:none;">
-                    砖砌建筑
-                </span>
+                    <span data-lang="en">
+                        Residential Building Systems
+                    </span>
 
-                <span data-lang="ru" style="display:none;">
-                    Кирпичные здания
-                </span>
+                    <span data-lang="zh">
+                        住宅建筑体系
+                    </span>
 
-            </a>
+                    <span data-lang="ru">
+                        Системы жилых зданий
+                    </span>
 
-        </li>
+                </h2>
 
-        <li>
 
-            <a href="/archives/civilian/soviet-coldwar-block-buildings.html">
+                <p class="archive-section-description" data-lang="en">
+                    Housing is organized primarily by construction system,
+                    material, and experimental development.
+                </p>
 
-                <span data-lang="en">
-                    Block Buildings
-                </span>
+                <p class="archive-section-description" data-lang="zh">
+                    住宅建筑主要按照建筑结构体系、材料及实验性发展进行分类。
+                </p>
 
-                <span data-lang="zh" style="display:none;">
-                    大型砌块建筑
-                </span>
+                <p class="archive-section-description" data-lang="ru">
+                    Жилые здания классифицированы прежде всего
+                    по конструктивной системе, материалам
+                    и экспериментальным направлениям развития.
+                </p>
 
-                <span data-lang="ru" style="display:none;">
-                    Крупноблочные здания
-                </span>
+            </div>
 
-            </a>
+        </div>
 
-        </li>
 
-        <li>
+        <div class="archive-countries">
 
-            <a href="/archives/civilian/soviet-coldwar-precast-panel-buildings.html">
+            <div class="country-block">
 
-                <span data-lang="en">
-                    Precast Panel Buildings
-                </span>
+                <h3 class="country-name">
 
-                <span data-lang="zh" style="display:none;">
-                    预制板建筑
-                </span>
+                    <span data-lang="en">
+                        Residential Building Archives
+                    </span>
 
-                <span data-lang="ru" style="display:none;">
-                    Крупнопанельные здания
-                </span>
+                    <span data-lang="zh">
+                        住宅建筑档案
+                    </span>
 
-            </a>
+                    <span data-lang="ru">
+                        Архив жилых зданий
+                    </span>
 
-        </li>
+                </h3>
 
-        <li>
 
-            <a href="/archives/civilian/soviet-coldwar-experimental-housing.html">
+                <div class="archive-periods">
 
-                <span data-lang="en">
-                    Experimental Housing
-                </span>
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-wooden-buildings.html">
+                        <span data-lang="en">01 Wooden Buildings</span>
+                        <span data-lang="zh">01 木结构建筑</span>
+                        <span data-lang="ru">01 Деревянные здания</span>
+                    </a>
 
-                <span data-lang="zh" style="display:none;">
-                    实验住宅
-                </span>
 
-                <span data-lang="ru" style="display:none;">
-                    Экспериментальное жильё
-                </span>
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-brick-buildings.html">
+                        <span data-lang="en">02 Brick Buildings</span>
+                        <span data-lang="zh">02 砖砌建筑</span>
+                        <span data-lang="ru">02 Кирпичные здания</span>
+                    </a>
 
-            </a>
 
-        </li>
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-block-buildings.html">
+                        <span data-lang="en">03 Large-Block Buildings</span>
+                        <span data-lang="zh">03 大型砌块建筑</span>
+                        <span data-lang="ru">03 Крупноблочные здания</span>
+                    </a>
 
-    </ul>
 
-</div>
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-precast-panel-buildings.html">
+                        <span data-lang="en">04 Precast Panel Buildings</span>
+                        <span data-lang="zh">04 预制板建筑</span>
+                        <span data-lang="ru">04 Крупнопанельные здания</span>
+                    </a>
+
+
+                    <a class="archive-period"
+                       href="/archives/civilian/soviet-coldwar-experimental-housing.html">
+                        <span data-lang="en">05 Experimental Housing</span>
+                        <span data-lang="zh">05 实验住宅</span>
+                        <span data-lang="ru">05 Экспериментальное жильё</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-content">
+        OKB-91 · ARCHIVE SYSTEM
+    </div>
+
+</footer>
+
 
 <script src="/script.js"></script>
 
