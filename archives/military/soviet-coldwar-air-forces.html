@@ -1,138 +1,257 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Soviet Cold War Air Forces - OKB-91</title>
-    <link rel="stylesheet" href="/style.css">
+
+    <link rel="stylesheet" href="/style-v2.css">
 </head>
 
 <body>
 
-<div class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/archives/main-archives.html" class="active">Archives</a>
-    <a href="/about.html">About</a>
+<header class="site-header">
+    <div class="nav">
 
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('ru')">RU</button>
+        <a href="/index.html" class="brand">
+            <span class="brand-mark">★</span>
+
+            <span class="brand-text">
+                <span class="brand-name">OKB-91</span>
+                <span class="brand-subtitle">
+                    SOVIET & EASTERN BLOC ARCHIVE
+                </span>
+            </span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="/index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/archives/main-archives.html" class="active">Archives</a>
+            <a href="/about.html">About</a>
+        </nav>
+
+        <div class="language-switcher">
+            <button type="button" onclick="setLang('en')">EN</button>
+            <button type="button" onclick="setLang('zh')">中文</button>
+            <button type="button" onclick="setLang('ru')">RU</button>
+        </div>
+
+    </div>
+</header>
+
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+
+        <a href="/archives/main-archives.html">
+            <span data-lang="en">Archives</span>
+            <span data-lang="zh" style="display:none;">档案馆</span>
+            <span data-lang="ru" style="display:none;">Архивы</span>
+        </a>
+
+        <span class="breadcrumb-separator">/</span>
+
+        <a href="/archives/military/soviet-coldwar-military.html">
+            <span data-lang="en">Soviet Cold War Military</span>
+            <span data-lang="zh" style="display:none;">苏联冷战军事档案</span>
+            <span data-lang="ru" style="display:none;">
+                Военный архив СССР — холодная война
+            </span>
+        </a>
+
+        <span class="breadcrumb-separator">/</span>
+
+        <span class="breadcrumb-current">
+            <span data-lang="en">Air Forces</span>
+            <span data-lang="zh" style="display:none;">苏联空军</span>
+            <span data-lang="ru" style="display:none;">Военно-воздушные силы</span>
+        </span>
+
+    </div>
 </div>
 
-<div class="project">
+<main class="archive-page">
 
-    <h2>
+    <div class="directory-heading">
 
-        <span data-lang="en">
-            Soviet Air Forces
-        </span>
+        <div class="directory-label">
+            <span data-lang="en">
+                MILITARY ARCHIVES / USSR / COLD WAR / AIR FORCES
+            </span>
 
-        <span data-lang="zh" style="display:none;">
-            苏联武装力量空军
-        </span>
+            <span data-lang="zh" style="display:none;">
+                军事档案 / 苏联 / 冷战 / 空军
+            </span>
 
-        <span data-lang="ru" style="display:none;">
-            Военно-воздушные силы СССР
-        </span>
+            <span data-lang="ru" style="display:none;">
+                ВОЕННЫЙ АРХИВ / СССР / ХОЛОДНАЯ ВОЙНА / ВВС
+            </span>
+        </div>
 
-    </h2>
+        <h1 class="directory-title">
+            <span data-lang="en">
+                Soviet Cold War Air Forces
+            </span>
 
-    <p data-lang="en">
-        Aircraft, aviation equipment, airfield support systems, and aviation infrastructure of the Soviet Air Forces during the Cold War.
-    </p>
+            <span data-lang="zh" style="display:none;">
+                冷战时期苏联空军
+            </span>
 
-    <p data-lang="zh" style="display:none;">
-        冷战时期苏联空军的航空器、航空设备、机场支援系统与航空基础设施档案。
-    </p>
+            <span data-lang="ru" style="display:none;">
+                Военно-воздушные силы СССР периода холодной войны
+            </span>
+        </h1>
 
-    <p data-lang="ru" style="display:none;">
-        Архивы авиации, авиационного оборудования, аэродромных систем и инфраструктуры ВВС СССР периода холодной войны.
-    </p>
+        <p class="directory-description">
 
-    <ul>
+            <span data-lang="en">
+                Aircraft, aviation equipment, airfield support
+                systems, and aviation infrastructure of the
+                Soviet Air Forces during the Cold War.
+            </span>
 
-        <li>
+            <span data-lang="zh" style="display:none;">
+                收录冷战时期苏联空军的航空器、
+                航空设备、机场支援系统及航空基础设施。
+            </span>
 
-            <a href="/archives/military/soviet-coldwar-fighter-aircraft.html">
+            <span data-lang="ru" style="display:none;">
+                Архив авиационной техники, оборудования,
+                аэродромных систем обеспечения
+                и авиационной инфраструктуры ВВС СССР
+                периода холодной войны.
+            </span>
 
-                <span data-lang="en">
-                    Fighter Aircraft
-                </span>
+        </p>
 
-                <span data-lang="zh" style="display:none;">
-                    战斗机
-                </span>
+    </div>
 
-                <span data-lang="ru" style="display:none;">
-                    Истребительная авиация
-                </span>
+    <section class="archive-section">
 
-            </a>
+        <div class="archive-section-header">
 
-        </li>
+            <div class="archive-section-icon">
+                <img
+                    class="archive-section-icon-image"
+                    src="/images/icons/soviet-coldwar-air-forces.svg"
+                    alt="Soviet Cold War Air Forces"
+                    onerror="this.style.display='none'"
+                >
+            </div>
 
-        <li>
+            <div>
+                <h2 class="archive-section-title">
+                    <span data-lang="en">
+                        Air Forces & Aviation Equipment
+                    </span>
 
-            <a href="/archives/military/soviet-coldwar-attack-aircraft.html">
+                    <span data-lang="zh" style="display:none;">
+                        空军部队与航空装备
+                    </span>
 
-                <span data-lang="en">
-                    Attack Aircraft
-                </span>
+                    <span data-lang="ru" style="display:none;">
+                        Военно-воздушные силы и авиационная техника
+                    </span>
+                </h2>
 
-                <span data-lang="zh" style="display:none;">
-                    攻击机
-                </span>
+                <p class="archive-section-description">
+                    <span data-lang="en">
+                        Browse fighter aircraft, attack aircraft,
+                        bombers, and ground support equipment.
+                    </span>
 
-                <span data-lang="ru" style="display:none;">
-                    Штурмовая авиация
-                </span>
+                    <span data-lang="zh" style="display:none;">
+                        浏览战斗机、攻击机、轰炸机及地勤保障装备。
+                    </span>
 
-            </a>
+                    <span data-lang="ru" style="display:none;">
+                        Каталог истребителей, штурмовиков,
+                        бомбардировщиков и наземного
+                        авиационного оборудования.
+                    </span>
+                </p>
+            </div>
 
-        </li>
+        </div>
 
-        <li>
+        <div class="archive-countries">
 
-            <a href="/archives/military/soviet-coldwar-bombers.html">
+            <div class="country-block">
 
-                <span data-lang="en">
-                    Bombers
-                </span>
+                <div class="country-name">
+                    <span data-lang="en">Air Forces Categories</span>
+                    <span data-lang="zh" style="display:none;">空军档案类别</span>
+                    <span data-lang="ru" style="display:none;">
+                        Категории военно-воздушных сил
+                    </span>
+                </div>
 
-                <span data-lang="zh" style="display:none;">
-                    轰炸机
-                </span>
+                <div class="archive-periods">
 
-                <span data-lang="ru" style="display:none;">
-                    Бомбардировочная авиация
-                </span>
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-fighter-aircraft.html">
 
-            </a>
+                        <span data-lang="en">Fighter Aircraft</span>
+                        <span data-lang="zh" style="display:none;">战斗机</span>
+                        <span data-lang="ru" style="display:none;">
+                            Истребительная авиация
+                        </span>
+                    </a>
 
-        </li>
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-attack-aircraft.html">
 
-        <li>
+                        <span data-lang="en">Attack Aircraft</span>
+                        <span data-lang="zh" style="display:none;">攻击机</span>
+                        <span data-lang="ru" style="display:none;">
+                            Штурмовая авиация
+                        </span>
+                    </a>
 
-            <a href="/archives/military/soviet-coldwar-airfield-support.html">
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-bombers.html">
 
-                <span data-lang="en">
-                    Ground Support and Equipment
-                </span>
+                        <span data-lang="en">Bombers</span>
+                        <span data-lang="zh" style="display:none;">轰炸机</span>
+                        <span data-lang="ru" style="display:none;">
+                            Бомбардировочная авиация
+                        </span>
+                    </a>
 
-                <span data-lang="zh" style="display:none;">
-                    地勤与设备
-                </span>
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-airfield-support.html">
 
-                <span data-lang="ru" style="display:none;">
-                    Наземное обслуживание и оборудование
-                </span>
+                        <span data-lang="en">
+                            Ground Support and Equipment
+                        </span>
 
-            </a>
+                        <span data-lang="zh" style="display:none;">
+                            地勤与设备
+                        </span>
 
-        </li>
+                        <span data-lang="ru" style="display:none;">
+                            Наземное обслуживание и оборудование
+                        </span>
+                    </a>
 
-    </ul>
+                </div>
 
-</div>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        © OKB-91 — SOVIET & EASTERN BLOC ARCHIVE
+    </div>
+</footer>
 
 <script src="/script.js"></script>
 
