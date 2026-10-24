@@ -1,88 +1,294 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Soviet Cold War Ground Forces - OKB-91</title>
-    <link rel="stylesheet" href="/style.css">
+
+    <link rel="stylesheet" href="/style-v2.css">
 </head>
 
 <body>
 
-<div class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/archives/main-archives.html" class="active">Archives</a>
-    <a href="/about.html">About</a>
+<header class="site-header">
+    <div class="nav">
 
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('ru')">RU</button>
+        <a href="/index.html" class="brand">
+            <span class="brand-mark">★</span>
+
+            <span class="brand-text">
+                <span class="brand-name">OKB-91</span>
+                <span class="brand-subtitle">
+                    SOVIET & EASTERN BLOC ARCHIVE
+                </span>
+            </span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="/index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/archives/main-archives.html" class="active">Archives</a>
+            <a href="/about.html">About</a>
+        </nav>
+
+        <div class="language-switcher">
+            <button type="button" onclick="setLang('en')">EN</button>
+            <button type="button" onclick="setLang('zh')">中文</button>
+            <button type="button" onclick="setLang('ru')">RU</button>
+        </div>
+
+    </div>
+</header>
+
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+
+        <a href="/archives/main-archives.html">
+            <span data-lang="en">Archives</span>
+            <span data-lang="zh" style="display:none;">档案馆</span>
+            <span data-lang="ru" style="display:none;">Архивы</span>
+        </a>
+
+        <span class="breadcrumb-separator">/</span>
+
+        <a href="/archives/military/soviet-coldwar-military.html">
+            <span data-lang="en">Soviet Cold War Military</span>
+            <span data-lang="zh" style="display:none;">苏联冷战军事档案</span>
+            <span data-lang="ru" style="display:none;">
+                Военный архив СССР — холодная война
+            </span>
+        </a>
+
+        <span class="breadcrumb-separator">/</span>
+
+        <span class="breadcrumb-current">
+            <span data-lang="en">Ground Forces</span>
+            <span data-lang="zh" style="display:none;">苏联陆军</span>
+            <span data-lang="ru" style="display:none;">Сухопутные войска</span>
+        </span>
+
+    </div>
 </div>
 
-<div class="project">
+<main class="archive-page">
 
-    <h2>
-        <span data-lang="en">Soviet Ground Forces</span>
-        <span data-lang="zh" style="display:none;">苏联武装力量陆军</span>
-        <span data-lang="ru" style="display:none;">Сухопутные войска СССР</span>
-    </h2>
+    <div class="directory-heading">
 
-    <p data-lang="en">
-        Ground force equipment, armored vehicles, transport vehicles, crew-served weapons, infantry weapons, and related systems of the Soviet Ground Forces during the Cold War.
-    </p>
+        <div class="directory-label">
+            <span data-lang="en">
+                MILITARY ARCHIVES / USSR / COLD WAR / GROUND FORCES
+            </span>
 
-    <p data-lang="zh" style="display:none;">
-        冷战时期苏联武装力量陆军的地面装备、装甲车辆、运输车辆、架设武器、步兵武器与相关系统档案。
-    </p>
+            <span data-lang="zh" style="display:none;">
+                军事档案 / 苏联 / 冷战 / 陆军
+            </span>
 
-    <p data-lang="ru" style="display:none;">
-        Архивы наземной техники, бронетехники, транспортных средств, коллективного оружия, пехотного вооружения и связанных систем Сухопутных войск СССР периода холодной войны.
-    </p>
+            <span data-lang="ru" style="display:none;">
+                ВОЕННЫЙ АРХИВ / СССР / ХОЛОДНАЯ ВОЙНА / СУХОПУТНЫЕ ВОЙСКА
+            </span>
+        </div>
 
-    <ul>
+        <h1 class="directory-title">
+            <span data-lang="en">
+                Soviet Cold War Ground Forces
+            </span>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-tanks-armored-vehicles.html">
-                <span data-lang="en">Tanks and Armored Vehicles</span>
-                <span data-lang="zh" style="display:none;">坦克和装甲车</span>
-                <span data-lang="ru" style="display:none;">Танки и бронетехника</span>
-            </a>
-        </li>
+            <span data-lang="zh" style="display:none;">
+                冷战时期苏联陆军
+            </span>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-transport-utility-vehicles.html">
-                <span data-lang="en">Transport and Utility Vehicles</span>
-                <span data-lang="zh" style="display:none;">卡车和民用载具</span>
-                <span data-lang="ru" style="display:none;">Транспортные и служебные машины</span>
-            </a>
-        </li>
+            <span data-lang="ru" style="display:none;">
+                Сухопутные войска СССР периода холодной войны
+            </span>
+        </h1>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-crew-served-weapons.html">
-                <span data-lang="en">Crew-Served Weapons</span>
-                <span data-lang="zh" style="display:none;">架设武器</span>
-                <span data-lang="ru" style="display:none;">Коллективное оружие</span>
-            </a>
-        </li>
+        <p class="directory-description">
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-infantry-small-arms.html">
-                <span data-lang="en">Infantry and Small Arms</span>
-                <span data-lang="zh" style="display:none;">步兵和轻武器</span>
-                <span data-lang="ru" style="display:none;">Пехотное и стрелковое оружие</span>
-            </a>
-        </li>
+            <span data-lang="en">
+                Ground force equipment, armored vehicles,
+                transport vehicles, crew-served weapons,
+                infantry weapons, and related systems
+                of the Soviet Ground Forces during the Cold War.
+            </span>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-ground-other.html">
-                <span data-lang="en">Other Ground Force Systems</span>
-                <span data-lang="zh" style="display:none;">其他</span>
-                <span data-lang="ru" style="display:none;">Прочие системы сухопутных войск</span>
-            </a>
-        </li>
+            <span data-lang="zh" style="display:none;">
+                收录冷战时期苏联陆军的地面装备、
+                装甲车辆、运输车辆、架设武器、
+                步兵武器及相关系统。
+            </span>
 
-    </ul>
+            <span data-lang="ru" style="display:none;">
+                Архив наземной техники, бронетехники,
+                транспортных средств, коллективного оружия,
+                пехотного вооружения и связанных систем
+                Сухопутных войск СССР периода холодной войны.
+            </span>
 
-</div>
+        </p>
+
+    </div>
+
+    <section class="archive-section">
+
+        <div class="archive-section-header">
+
+            <div class="archive-section-icon">
+                <img
+                    class="archive-section-icon-image"
+                    src="/images/icons/soviet-coldwar-ground-forces.svg"
+                    alt="Soviet Cold War Ground Forces"
+                    onerror="this.style.display='none'"
+                >
+            </div>
+
+            <div>
+                <h2 class="archive-section-title">
+                    <span data-lang="en">
+                        Ground Forces & Equipment
+                    </span>
+
+                    <span data-lang="zh" style="display:none;">
+                        陆军部队与装备
+                    </span>
+
+                    <span data-lang="ru" style="display:none;">
+                        Сухопутные войска и вооружение
+                    </span>
+                </h2>
+
+                <p class="archive-section-description">
+                    <span data-lang="en">
+                        Browse Soviet ground combat equipment,
+                        vehicles, weapons, and related systems.
+                    </span>
+
+                    <span data-lang="zh" style="display:none;">
+                        浏览苏联陆军的作战装备、
+                        车辆、武器及相关系统。
+                    </span>
+
+                    <span data-lang="ru" style="display:none;">
+                        Каталог советской наземной боевой техники,
+                        транспортных средств, вооружения
+                        и связанных систем.
+                    </span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="archive-countries">
+
+            <div class="country-block">
+
+                <div class="country-name">
+                    <span data-lang="en">Ground Forces Categories</span>
+                    <span data-lang="zh" style="display:none;">陆军档案类别</span>
+                    <span data-lang="ru" style="display:none;">
+                        Категории сухопутных войск
+                    </span>
+                </div>
+
+                <div class="archive-periods">
+
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-tanks-armored-vehicles.html">
+
+                        <span data-lang="en">
+                            Tanks and Armored Vehicles
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            坦克和装甲车
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Танки и бронетехника
+                        </span>
+                    </a>
+
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-transport-utility-vehicles.html">
+
+                        <span data-lang="en">
+                            Transport and Utility Vehicles
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            卡车和民用载具
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Транспортные и служебные машины
+                        </span>
+                    </a>
+
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-crew-served-weapons.html">
+
+                        <span data-lang="en">
+                            Crew-Served Weapons
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            架设武器
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Коллективное оружие
+                        </span>
+                    </a>
+
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-infantry-small-arms.html">
+
+                        <span data-lang="en">
+                            Infantry and Small Arms
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            步兵和轻武器
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Пехотное и стрелковое оружие
+                        </span>
+                    </a>
+
+                    <a class="archive-period"
+                       href="/archives/military/soviet-coldwar-ground-other.html">
+
+                        <span data-lang="en">
+                            Other Ground Force Systems
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            其他
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Прочие системы сухопутных войск
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        © OKB-91 — SOVIET & EASTERN BLOC ARCHIVE
+    </div>
+</footer>
 
 <script src="/script.js"></script>
 
