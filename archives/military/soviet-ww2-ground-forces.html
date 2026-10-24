@@ -1,98 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soviet Red Army - OKB-91</title>
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../style-v2.css">
 </head>
 
 <body>
 
-<div class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/archives/main-archives.html" class="active">Archives</a>
-    <a href="/about.html">About</a>
-    
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('ru')">RU</button>
+<header class="site-header">
+    <div class="nav">
+
+        <a href="/index.html" class="brand">
+            <span class="brand-mark">★</span>
+            <span class="brand-text">
+                <span class="brand-name">OKB-91</span>
+                <span class="brand-subtitle">SOVIET & EASTERN BLOC ARCHIVE</span>
+            </span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="/index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/archives/main-archives.html" class="active">Archives</a>
+            <a href="/about.html">About</a>
+        </nav>
+
+        <div class="language-switcher">
+            <button type="button" onclick="setLang('en')">EN</button>
+            <button type="button" onclick="setLang('zh')">中文</button>
+            <button type="button" onclick="setLang('ru')">RU</button>
+        </div>
+
+    </div>
+</header>
+
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+
+        <a href="/archives/main-archives.html">
+            <span data-lang="en">Archives</span>
+            <span data-lang="zh" style="display:none;">档案馆</span>
+            <span data-lang="ru" style="display:none;">Архивы</span>
+        </a>
+
+        <span class="breadcrumb-separator">/</span>
+
+        <a href="/archives/military/soviet-ww2-military.html">
+            <span data-lang="en">Soviet WWII Military</span>
+            <span data-lang="zh" style="display:none;">苏联二战军事档案</span>
+            <span data-lang="ru" style="display:none;">Военный архив СССР — Вторая мировая война</span>
+        </a>
+
+        <span class="breadcrumb-separator">/</span>
+
+        <span class="breadcrumb-current">
+            <span data-lang="en">Red Army</span>
+            <span data-lang="zh" style="display:none;">红军陆军</span>
+            <span data-lang="ru" style="display:none;">Красная армия</span>
+        </span>
+
+    </div>
 </div>
 
-<div class="project">
+<main class="archive-page">
 
-    <h2>
-        <span data-lang="en">Soviet Red Army</span>
-        <span data-lang="zh" style="display:none;">苏联红军陆军</span>
-        <span data-lang="ru" style="display:none;">Красная Армия СССР</span>
-    </h2>
+    <div class="directory-heading">
 
-    <p data-lang="en">
-        Ground force equipment, vehicles, infantry weapons, artillery systems, and support assets of the Soviet Red Army during the Second World War.
-    </p>
+        <div class="directory-label">
+            <span data-lang="en">MILITARY ARCHIVES / USSR / WWII / GROUND FORCES</span>
+            <span data-lang="zh" style="display:none;">军事档案 / 苏联 / 二战 / 陆军</span>
+            <span data-lang="ru" style="display:none;">ВОЕННЫЙ АРХИВ / СССР / ВТОРАЯ МИРОВАЯ ВОЙНА / СУХОПУТНЫЕ ВОЙСКА</span>
+        </div>
 
-    <p data-lang="zh" style="display:none;">
-        第二次世界大战期间苏联红军陆军的地面装备、步兵武器、火炮系统与支援资产档案。
-    </p>
+        <h1 class="directory-title">
+            <span data-lang="en">Soviet Red Army</span>
+            <span data-lang="zh" style="display:none;">苏联红军陆军</span>
+            <span data-lang="ru" style="display:none;">Красная армия СССР</span>
+        </h1>
 
-    <p data-lang="ru" style="display:none;">
-        Архивы наземной техники, стрелкового вооружения, артиллерии и вспомогательных систем Красной Армии СССР периода Второй мировой войны.
-    </p>
+        <p class="directory-description">
+            <span data-lang="en">
+                Ground force equipment, vehicles, infantry weapons,
+                artillery systems, and support assets of the Soviet
+                Red Army during the Second World War.
+            </span>
 
-    <ul>
+            <span data-lang="zh" style="display:none;">
+                第二次世界大战期间苏联红军陆军的地面装备、
+                步兵武器、火炮系统与支援资产档案。
+            </span>
 
-        <li>
-            <a href="soviet-ww2-tanks-armored-vehicles.html">
+            <span data-lang="ru" style="display:none;">
+                Архивы наземной техники, стрелкового вооружения,
+                артиллерии и вспомогательных систем Красной армии
+                СССР периода Второй мировой войны.
+            </span>
+        </p>
 
-                <span data-lang="en">Tanks and Armored Vehicles</span>
-                <span data-lang="zh" style="display:none;">坦克和装甲车</span>
-                <span data-lang="ru" style="display:none;">Танки и бронетехника</span>
+    </div>
 
-            </a>
-        </li>
+    <section class="archive-section">
 
-        <li>
-            <a href="soviet-ww2-transport-utility-vehicles.html">
+        <div class="archive-section-header">
 
-                <span data-lang="en">Transport and Utility Vehicles</span>
-                <span data-lang="zh" style="display:none;">卡车和民用载具</span>
-                <span data-lang="ru" style="display:none;">Транспортные и служебные машины</span>
+            <div class="archive-section-icon">
+                <img
+                    class="archive-section-icon-image"
+                    src="/images/icons/soviet-ww2-ground-forces.svg"
+                    alt="Soviet Red Army"
+                    onerror="this.style.display='none'"
+                >
+            </div>
 
-            </a>
-        </li>
+            <div>
+                <h2 class="archive-section-title">
+                    <span data-lang="en">Ground Forces Equipment</span>
+                    <span data-lang="zh" style="display:none;">陆军装备分类</span>
+                    <span data-lang="ru" style="display:none;">Вооружение и техника сухопутных войск</span>
+                </h2>
 
-        <li>
-            <a href="soviet-ww2-crew-served-weapons.html">
+                <p class="archive-section-description">
+                    <span data-lang="en">
+                        Browse armored vehicles, transport equipment,
+                        crew-served weapons, infantry arms, and other
+                        ground force systems.
+                    </span>
 
-                <span data-lang="en">Crew-Served Weapons</span>
-                <span data-lang="zh" style="display:none;">架设武器</span>
-                <span data-lang="ru" style="display:none;">Коллективное оружие</span>
+                    <span data-lang="zh" style="display:none;">
+                        浏览装甲车辆、运输装备、架设武器、
+                        步兵轻武器及其他地面部队装备。
+                    </span>
 
-            </a>
-        </li>
+                    <span data-lang="ru" style="display:none;">
+                        Каталог бронетехники, транспортных машин,
+                        коллективного и стрелкового оружия,
+                        а также других систем сухопутных войск.
+                    </span>
+                </p>
+            </div>
 
-        <li>
-            <a href="soviet-ww2-infantry-small-arms.html">
+        </div>
 
-                <span data-lang="en">Infantry and Small Arms</span>
-                <span data-lang="zh" style="display:none;">步兵和轻武器</span>
-                <span data-lang="ru" style="display:none;">Пехотное и стрелковое оружие</span>
+        <div class="archive-countries">
 
-            </a>
-        </li>
+            <div class="country-block">
 
-        <li>
-            <a href="soviet-ww2-ground-other.html">
+                <div class="country-name">
+                    <span data-lang="en">Equipment Categories</span>
+                    <span data-lang="zh" style="display:none;">装备类别</span>
+                    <span data-lang="ru" style="display:none;">Категории техники и вооружения</span>
+                </div>
 
-                <span data-lang="en">Other Ground Force Systems</span>
-                <span data-lang="zh" style="display:none;">其他</span>
-                <span data-lang="ru" style="display:none;">Прочие системы сухопутных войск</span>
+                <div class="archive-periods">
 
-            </a>
-        </li>
+                    <a class="archive-period"
+                       href="soviet-ww2-tanks-armored-vehicles.html">
+                        <span data-lang="en">Tanks and Armored Vehicles</span>
+                        <span data-lang="zh" style="display:none;">坦克和装甲车</span>
+                        <span data-lang="ru" style="display:none;">Танки и бронетехника</span>
+                    </a>
 
-    </ul>
+                    <a class="archive-period"
+                       href="soviet-ww2-transport-utility-vehicles.html">
+                        <span data-lang="en">Transport and Utility Vehicles</span>
+                        <span data-lang="zh" style="display:none;">卡车和民用载具</span>
+                        <span data-lang="ru" style="display:none;">Транспортные и служебные машины</span>
+                    </a>
 
-</div>
+                    <a class="archive-period"
+                       href="soviet-ww2-crew-served-weapons.html">
+                        <span data-lang="en">Crew-Served Weapons</span>
+                        <span data-lang="zh" style="display:none;">架设武器</span>
+                        <span data-lang="ru" style="display:none;">Коллективное оружие</span>
+                    </a>
+
+                    <a class="archive-period"
+                       href="soviet-ww2-infantry-small-arms.html">
+                        <span data-lang="en">Infantry and Small Arms</span>
+                        <span data-lang="zh" style="display:none;">步兵和轻武器</span>
+                        <span data-lang="ru" style="display:none;">Пехотное и стрелковое оружие</span>
+                    </a>
+
+                    <a class="archive-period"
+                       href="soviet-ww2-ground-other.html">
+                        <span data-lang="en">Other Ground Force Systems</span>
+                        <span data-lang="zh" style="display:none;">其他</span>
+                        <span data-lang="ru" style="display:none;">Прочие системы сухопутных войск</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        © OKB-91 — SOVIET & EASTERN BLOC ARCHIVE
+    </div>
+</footer>
 
 <script src="../../script.js"></script>
 
