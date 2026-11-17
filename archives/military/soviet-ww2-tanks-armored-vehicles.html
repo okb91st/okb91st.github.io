@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,114 +6,429 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Soviet WWII Tanks & Armored Vehicles - OKB-91</title>
+    <title>Soviet WWII Tanks & Armored Vehicles | OKB-91</title>
 
     <link rel="stylesheet" href="../../style-v2.css">
+
+    <style>
+        /* ==========================================
+           OKB-91 Soviet WWII Armored Vehicles
+           ========================================== */
+
+        .ww2-nav {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 22px 24px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 28px;
+            box-sizing: border-box;
+            border-bottom: 2px solid #c9a227;
+        }
+
+        .ww2-nav a {
+            color: #ff3838;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .ww2-nav a:hover,
+        .ww2-nav a.active {
+            color: #ffd700;
+            text-decoration: underline;
+        }
+
+        .ww2-language {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .ww2-language button {
+            cursor: pointer;
+            padding: 4px 8px;
+        }
+
+        .ww2-page {
+            max-width: 1120px;
+            margin: 32px auto 80px;
+            padding: 0 24px;
+            box-sizing: border-box;
+        }
+
+        .ww2-breadcrumb {
+            margin-bottom: 26px;
+            font-size: 14px;
+            color: #c0cbd0;
+        }
+
+        .ww2-breadcrumb a {
+            color: #e2bd39;
+            text-decoration: none;
+        }
+
+        .ww2-breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .ww2-heading {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            padding: 28px;
+            border: 1px solid #a88b27;
+            background: rgba(8, 26, 35, 0.65);
+            margin-bottom: 32px;
+        }
+
+        .ww2-icon {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .ww2-heading h1 {
+            color: #ffd700;
+            font-size: 28px;
+            line-height: 1.4;
+            margin: 0 0 14px;
+        }
+
+        .ww2-heading p {
+            color: #e1e7e9;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        .ww2-section-title {
+            color: #ffd700;
+            font-size: 23px;
+            margin: 0 0 20px;
+        }
+
+        .ww2-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(2, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .ww2-card {
+            display: flex;
+            align-items: center;
+            min-height: 94px;
+            padding: 22px 24px;
+            border: 1px solid #a88b27;
+            background: rgba(9, 29, 39, 0.78);
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            box-sizing: border-box;
+            transition:
+                background 0.2s ease,
+                border-color 0.2s ease,
+                transform 0.2s ease;
+        }
+
+        .ww2-card:hover {
+            background: rgba(255, 215, 0, 0.08);
+            border-color: #ffd700;
+            transform: translateY(-2px);
+        }
+
+        .ww2-card:focus-visible {
+            outline: 2px solid #ffd700;
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 700px) {
+            .ww2-nav {
+                gap: 16px;
+                padding: 18px 16px;
+            }
+
+            .ww2-page {
+                padding: 0 16px;
+                margin-top: 24px;
+            }
+
+            .ww2-heading {
+                flex-direction: column;
+                text-align: center;
+                padding: 22px;
+            }
+
+            .ww2-icon {
+                width: 150px;
+                height: 150px;
+            }
+
+            .ww2-heading h1 {
+                font-size: 24px;
+            }
+
+            .ww2-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .ww2-card {
+                min-height: 76px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <div class="nav">
+    <!-- ======================================
+         Navigation
+         ====================================== -->
+
+    <nav class="ww2-nav">
+
         <a href="/index.html">Home</a>
         <a href="/projects.html">Projects</a>
-        <a href="/archives/main-archives.html" class="active">Archives</a>
+        <a href="/archives/main-archives.html"
+           class="active">Archives</a>
         <a href="/about.html">About</a>
 
-        <button onclick="setLang('en')">EN</button>
-        <button onclick="setLang('zh')">中文</button>
-        <button onclick="setLang('ru')">RU</button>
-    </div>
+        <div class="ww2-language">
+            <button type="button"
+                    onclick="setLang('en')">EN</button>
 
-    <main class="archive-page">
+            <button type="button"
+                    onclick="setLang('zh')">中文</button>
 
-        <!-- Page heading -->
-        <section class="archive-header">
+            <button type="button"
+                    onclick="setLang('ru')">RU</button>
+        </div>
+
+    </nav>
+
+    <!-- ======================================
+         Main Archive
+         ====================================== -->
+
+    <main class="ww2-page">
+
+        <!-- Breadcrumb -->
+
+        <div class="ww2-breadcrumb">
+
+            <a href="/archives/main-archives.html">
+                <span data-lang="en">Archives</span>
+                <span data-lang="zh" style="display:none;">
+                    档案馆
+                </span>
+                <span data-lang="ru" style="display:none;">
+                    Архив
+                </span>
+            </a>
+
+            <span> / </span>
+
+            <span data-lang="en">
+                Soviet WWII Armored Vehicles
+            </span>
+
+            <span data-lang="zh" style="display:none;">
+                苏联二战装甲车辆
+            </span>
+
+            <span data-lang="ru" style="display:none;">
+                Советская бронетехника Второй мировой войны
+            </span>
+
+        </div>
+
+        <!-- Header -->
+
+        <section class="ww2-heading">
 
             <img
                 src="/images/icons/soviet-ww2-armored-vehicles.svg"
-                alt="Soviet WWII Armored Vehicles"
-                class="archive-icon"
+                alt="Soviet WWII Armored Vehicles Emblem"
+                class="ww2-icon"
+                width="180"
+                height="180"
             >
 
-            <h1>
-                <span data-lang="en">
-                    Soviet WWII Tanks & Armored Vehicles
-                </span>
-                <span data-lang="zh" style="display:none;">
-                    苏联二战坦克与装甲车辆
-                </span>
-                <span data-lang="ru" style="display:none;">
-                    Советские танки и бронетехника Второй мировой войны
-                </span>
-            </h1>
+            <div>
 
-            <p data-lang="en">
-                Armored vehicles developed and operated by the
-                Soviet Union during the Second World War,
-                including armored cars, light, medium and heavy
-                tanks, and self-propelled artillery.
-            </p>
+                <h1>
+                    <span data-lang="en">
+                        Soviet WWII Tanks & Armored Vehicles
+                    </span>
 
-            <p data-lang="zh" style="display:none;">
-                第二次世界大战期间苏联研发和使用的装甲车辆，
-                包括装甲汽车、轻型坦克、中型坦克、重型坦克
-                以及自行火炮。
-            </p>
+                    <span data-lang="zh"
+                          style="display:none;">
+                        苏联二战坦克与装甲车辆
+                    </span>
 
-            <p data-lang="ru" style="display:none;">
-                Бронетехника, разработанная и применявшаяся
-                Советским Союзом во время Второй мировой войны,
-                включая бронеавтомобили, лёгкие, средние и тяжёлые
-                танки, а также самоходную артиллерию.
-            </p>
+                    <span data-lang="ru"
+                          style="display:none;">
+                        Советские танки и бронетехника
+                        Второй мировой войны
+                    </span>
+                </h1>
+
+                <p data-lang="en">
+                    Armored vehicles developed and operated
+                    by the Soviet Union during the Second
+                    World War, including armored cars,
+                    light, medium and heavy tanks,
+                    and self-propelled artillery.
+                </p>
+
+                <p data-lang="zh" style="display:none;">
+                    第二次世界大战期间苏联研发和使用的
+                    装甲车辆，包括装甲汽车、轻型坦克、
+                    中型坦克、重型坦克以及自行火炮。
+                </p>
+
+                <p data-lang="ru" style="display:none;">
+                    Бронетехника, разработанная и
+                    применявшаяся Советским Союзом
+                    во время Второй мировой войны,
+                    включая бронеавтомобили, лёгкие,
+                    средние и тяжёлые танки,
+                    а также самоходную артиллерию.
+                </p>
+
+            </div>
 
         </section>
 
-        <!-- Categories -->
-        <section class="archive-categories">
+        <!-- Vehicle Categories -->
 
-            <h2>
-                <span data-lang="en">Vehicle Categories</span>
-                <span data-lang="zh" style="display:none;">车辆分类</span>
-                <span data-lang="ru" style="display:none;">Категории техники</span>
+        <section class="ww2-categories">
+
+            <h2 class="ww2-section-title">
+
+                <span data-lang="en">
+                    Vehicle Categories
+                </span>
+
+                <span data-lang="zh"
+                      style="display:none;">
+                    车辆分类
+                </span>
+
+                <span data-lang="ru"
+                      style="display:none;">
+                    Категории техники
+                </span>
+
             </h2>
 
-            <div class="archive-grid">
+            <div class="ww2-grid">
 
-                <a class="archive-card"
+                <!-- Armored Cars -->
+
+                <a class="ww2-card"
                    href="soviet-ww2-armored-cars.html">
-                    <span data-lang="en">Armored Cars</span>
-                    <span data-lang="zh" style="display:none;">装甲汽车</span>
-                    <span data-lang="ru" style="display:none;">Бронеавтомобили</span>
+
+                    <span data-lang="en">
+                        Armored Cars
+                    </span>
+
+                    <span data-lang="zh"
+                          style="display:none;">
+                        装甲汽车
+                    </span>
+
+                    <span data-lang="ru"
+                          style="display:none;">
+                        Бронеавтомобили
+                    </span>
+
                 </a>
 
-                <a class="archive-card"
+                <!-- Light Tanks -->
+
+                <a class="ww2-card"
                    href="soviet-ww2-light-tanks.html">
-                    <span data-lang="en">Light Tanks</span>
-                    <span data-lang="zh" style="display:none;">轻型坦克</span>
-                    <span data-lang="ru" style="display:none;">Лёгкие танки</span>
+
+                    <span data-lang="en">
+                        Light Tanks
+                    </span>
+
+                    <span data-lang="zh"
+                          style="display:none;">
+                        轻型坦克
+                    </span>
+
+                    <span data-lang="ru"
+                          style="display:none;">
+                        Лёгкие танки
+                    </span>
+
                 </a>
 
-                <a class="archive-card"
+                <!-- Medium Tanks -->
+
+                <a class="ww2-card"
                    href="soviet-ww2-medium-tanks.html">
-                    <span data-lang="en">Medium Tanks</span>
-                    <span data-lang="zh" style="display:none;">中型坦克</span>
-                    <span data-lang="ru" style="display:none;">Средние танки</span>
+
+                    <span data-lang="en">
+                        Medium Tanks
+                    </span>
+
+                    <span data-lang="zh"
+                          style="display:none;">
+                        中型坦克
+                    </span>
+
+                    <span data-lang="ru"
+                          style="display:none;">
+                        Средние танки
+                    </span>
+
                 </a>
 
-                <a class="archive-card"
+                <!-- Heavy Tanks -->
+
+                <a class="ww2-card"
                    href="soviet-ww2-heavy-tanks.html">
-                    <span data-lang="en">Heavy Tanks</span>
-                    <span data-lang="zh" style="display:none;">重型坦克</span>
-                    <span data-lang="ru" style="display:none;">Тяжёлые танки</span>
+
+                    <span data-lang="en">
+                        Heavy Tanks
+                    </span>
+
+                    <span data-lang="zh"
+                          style="display:none;">
+                        重型坦克
+                    </span>
+
+                    <span data-lang="ru"
+                          style="display:none;">
+                        Тяжёлые танки
+                    </span>
+
                 </a>
 
-                <a class="archive-card"
+                <!-- Self-Propelled Guns -->
+
+                <a class="ww2-card"
                    href="soviet-ww2-self-propelled-vehicles.html">
-                    <span data-lang="en">Self-Propelled Guns</span>
-                    <span data-lang="zh" style="display:none;">自行火炮</span>
-                    <span data-lang="ru" style="display:none;">Самоходная артиллерия</span>
+
+                    <span data-lang="en">
+                        Self-Propelled Guns
+                    </span>
+
+                    <span data-lang="zh"
+                          style="display:none;">
+                        自行火炮
+                    </span>
+
+                    <span data-lang="ru"
+                          style="display:none;">
+                        Самоходная артиллерия
+                    </span>
+
                 </a>
 
             </div>
@@ -121,6 +437,7 @@
 
     </main>
 
+    <!-- Existing OKB-91 language switching -->
     <script src="../../script.js"></script>
 
 </body>
