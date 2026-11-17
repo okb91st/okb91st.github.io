@@ -1,106 +1,411 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Soviet WWII Infantry and Small Arms - OKB-91</title>
-    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="stylesheet" href="/style-v2.css">
 </head>
 
 <body>
 
-<div class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/archives/main-archives.html" class="active">Archives</a>
-    <a href="/about.html">About</a>
-    
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('ru')">RU</button>
+<!-- ==========================================
+     SITE HEADER
+     ========================================== -->
+
+<header class="site-header">
+    <div class="nav">
+
+        <a href="/index.html" class="brand">
+            <span class="brand-mark">★</span>
+
+            <span class="brand-text">
+                <span class="brand-name">OKB-91</span>
+                <span class="brand-subtitle">
+                    SOVIET & EASTERN BLOC ARCHIVE
+                </span>
+            </span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="/index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/archives/main-archives.html"
+               class="active">Archives</a>
+            <a href="/about.html">About</a>
+        </nav>
+
+        <div class="language-switcher">
+            <button type="button" onclick="setLang('en')">EN</button>
+            <button type="button" onclick="setLang('zh')">中文</button>
+            <button type="button" onclick="setLang('ru')">RU</button>
+        </div>
+
+    </div>
+</header>
+
+<!-- ==========================================
+     BREADCRUMB
+     ========================================== -->
+
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+
+        <a href="/archives/main-archives.html">
+            <span data-lang="en">Archives</span>
+            <span data-lang="zh" style="display:none;">
+                档案馆
+            </span>
+            <span data-lang="ru" style="display:none;">
+                Архивы
+            </span>
+        </a>
+
+        <span class="breadcrumb-separator">/</span>
+
+        <span class="breadcrumb-current">
+
+            <span data-lang="en">
+                Soviet WWII Infantry and Small Arms
+            </span>
+
+            <span data-lang="zh" style="display:none;">
+                苏联二战步兵和轻武器
+            </span>
+
+            <span data-lang="ru" style="display:none;">
+                Советская пехота и стрелковое оружие
+                Второй мировой войны
+            </span>
+
+        </span>
+
+    </div>
 </div>
 
-<div class="project">
+<!-- ==========================================
+     MAIN ARCHIVE
+     ========================================== -->
 
-    <h2>
-        <span data-lang="en">Soviet WWII Infantry and Small Arms</span>
-        <span data-lang="zh" style="display:none;">苏联二战步兵和轻武器</span>
-        <span data-lang="ru" style="display:none;">Советское пехотное и стрелковое оружие Второй мировой войны</span>
-    </h2>
+<main class="archive-page">
 
-    <p data-lang="en">
-        Infantry personnel sets, unit collections, small arms, light machine guns, rifles, and anti-tank equipment of the Soviet Red Army during the Second World War.
-    </p>
+    <!-- Directory Heading -->
 
-    <p data-lang="zh" style="display:none;">
-        第二次世界大战期间苏联红军陆军的士兵合集、成套步兵部队、轻武器、轻机枪、步枪与反坦克器材档案。
-    </p>
+    <div class="directory-heading">
 
-    <p data-lang="ru" style="display:none;">
-        Архивы комплектов пехоты, стрелкового оружия, ручных пулемётов, винтовок и противотанковых средств Красной Армии СССР периода Второй мировой войны.
-    </p>
+        <div class="directory-label">
 
-    <ul>
+            <span data-lang="en">
+                MILITARY ARCHIVES / USSR / WORLD WAR II /
+                INFANTRY & SMALL ARMS
+            </span>
 
-        <li>
-            <a href="soviet-ww2-soldier-production-collection.html">
-                <span data-lang="en">Soviet Soldier Mass Production Collection</span>
-                <span data-lang="zh" style="display:none;">苏联士兵量产合集</span>
-                <span data-lang="ru" style="display:none;">Серийная коллекция советских солдат</span>
-            </a>
-        </li>
+            <span data-lang="zh" style="display:none;">
+                军事档案 / 苏联 / 第二次世界大战 /
+                步兵与轻武器
+            </span>
 
-        <li>
-            <a href="soviet-ww2-complete-infantry-unit-sets.html">
-                <span data-lang="en">Complete Infantry Unit Collection</span>
-                <span data-lang="zh" style="display:none;">成套步兵部队合集</span>
-                <span data-lang="ru" style="display:none;">Коллекция комплектных пехотных подразделений</span>
-            </a>
-        </li>
+            <span data-lang="ru" style="display:none;">
+                ВОЕННЫЙ АРХИВ / СССР /
+                ВТОРАЯ МИРОВАЯ ВОЙНА /
+                ПЕХОТА И СТРЕЛКОВОЕ ОРУЖИЕ
+            </span>
 
-        <li>
-            <a href="soviet-ww2-submachine-guns.html">
-                <span data-lang="en">Submachine Gun Collection</span>
-                <span data-lang="zh" style="display:none;">冲锋枪合集</span>
-                <span data-lang="ru" style="display:none;">Коллекция пистолетов-пулемётов</span>
-            </a>
-        </li>
+        </div>
 
-        <li>
-            <a href="soviet-ww2-light-machine-guns.html">
-                <span data-lang="en">Light Machine Gun Collection</span>
-                <span data-lang="zh" style="display:none;">轻机枪合集</span>
-                <span data-lang="ru" style="display:none;">Коллекция ручных пулемётов</span>
-            </a>
-        </li>
+        <h1 class="directory-title">
 
-        <li>
-            <a href="soviet-ww2-bolt-action-rifles.html">
-                <span data-lang="en">Bolt-Action Rifle Collection</span>
-                <span data-lang="zh" style="display:none;">栓动步枪合集</span>
-                <span data-lang="ru" style="display:none;">Коллекция винтовок с продольно-скользящим затвором</span>
-            </a>
-        </li>
+            <span data-lang="en">
+                Soviet WWII Infantry and Small Arms
+            </span>
 
-        <li>
-            <a href="soviet-ww2-self-loading-rifles.html">
-                <span data-lang="en">Self-Loading Rifle Collection</span>
-                <span data-lang="zh" style="display:none;">半自动步枪合集</span>
-                <span data-lang="ru" style="display:none;">Коллекция самозарядных винтовок</span>
-            </a>
-        </li>
+            <span data-lang="zh" style="display:none;">
+                苏联二战步兵和轻武器
+            </span>
 
-        <li>
-            <a href="soviet-ww2-anti-tank-equipment.html">
-                <span data-lang="en">Anti-Tank Equipment Collection</span>
-                <span data-lang="zh" style="display:none;">反坦克器材合集</span>
-                <span data-lang="ru" style="display:none;">Коллекция противотанковых средств</span>
-            </a>
-        </li>
+            <span data-lang="ru" style="display:none;">
+                Советская пехота и стрелковое оружие
+                Второй мировой войны
+            </span>
 
-    </ul>
+        </h1>
 
-</div>
+        <p class="directory-description">
 
-<script src="../../script.js"></script>
+            <span data-lang="en">
+                Infantry personnel sets, unit collections,
+                small arms, light machine guns, rifles,
+                and anti-tank equipment of the Soviet
+                Red Army during the Second World War.
+            </span>
+
+            <span data-lang="zh" style="display:none;">
+                收录第二次世界大战期间苏联红军的士兵合集、
+                成套步兵部队、轻武器、轻机枪、
+                步枪与反坦克器材档案。
+            </span>
+
+            <span data-lang="ru" style="display:none;">
+                Архив комплектов пехоты, стрелкового оружия,
+                ручных пулемётов, винтовок и противотанковых
+                средств Красной Армии СССР периода
+                Второй мировой войны.
+            </span>
+
+        </p>
+
+    </div>
+
+    <!-- ======================================
+         INFANTRY & SMALL ARMS SECTION
+         ====================================== -->
+
+    <section class="archive-section">
+
+        <div class="archive-section-header">
+
+            <div class="archive-section-icon">
+
+                <img
+                    class="archive-section-icon-image"
+                    src="/images/icons/soviet-ww2-infantry-small-arms.svg"
+                    alt="Soviet WWII Infantry and Small Arms"
+                    onerror="this.style.display='none'"
+                >
+
+            </div>
+
+            <div>
+
+                <h2 class="archive-section-title">
+
+                    <span data-lang="en">
+                        Infantry & Small Arms
+                    </span>
+
+                    <span data-lang="zh" style="display:none;">
+                        步兵与轻武器
+                    </span>
+
+                    <span data-lang="ru" style="display:none;">
+                        Пехота и стрелковое оружие
+                    </span>
+
+                </h2>
+
+                <p class="archive-section-description">
+
+                    <span data-lang="en">
+                        Browse Soviet Red Army infantry
+                        collections, complete unit sets,
+                        small arms, and infantry anti-tank
+                        equipment by category.
+                    </span>
+
+                    <span data-lang="zh" style="display:none;">
+                        按类别浏览苏联红军士兵合集、
+                        成套步兵部队、各类轻武器
+                        以及步兵反坦克器材。
+                    </span>
+
+                    <span data-lang="ru" style="display:none;">
+                        Каталог советских пехотных подразделений,
+                        комплектов солдат, стрелкового оружия
+                        и пехотных противотанковых средств.
+                    </span>
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ==================================
+             INFANTRY CATEGORIES
+             ================================== -->
+
+        <div class="archive-countries">
+
+            <div class="country-block">
+
+                <div class="country-name">
+
+                    <span data-lang="en">
+                        Infantry & Small Arms Categories
+                    </span>
+
+                    <span data-lang="zh" style="display:none;">
+                        步兵与轻武器分类
+                    </span>
+
+                    <span data-lang="ru" style="display:none;">
+                        Категории пехоты и стрелкового оружия
+                    </span>
+
+                </div>
+
+                <div class="archive-periods">
+
+                    <!-- Soldier Production Collection -->
+
+                    <a class="archive-period"
+                       href="soviet-ww2-soldier-production-collection.html">
+
+                        <span data-lang="en">
+                            Soviet Soldier Mass Production Collection
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            苏联士兵量产合集
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Серийная коллекция советских солдат
+                        </span>
+
+                    </a>
+
+                    <!-- Complete Infantry Unit Sets -->
+
+                    <a class="archive-period"
+                       href="soviet-ww2-complete-infantry-unit-sets.html">
+
+                        <span data-lang="en">
+                            Complete Infantry Unit Collection
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            成套步兵部队合集
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Коллекция комплектных
+                            пехотных подразделений
+                        </span>
+
+                    </a>
+
+                    <!-- Submachine Guns -->
+
+                    <a class="archive-period"
+                       href="soviet-ww2-submachine-guns.html">
+
+                        <span data-lang="en">
+                            Submachine Gun Collection
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            冲锋枪合集
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Коллекция пистолетов-пулемётов
+                        </span>
+
+                    </a>
+
+                    <!-- Light Machine Guns -->
+
+                    <a class="archive-period"
+                       href="soviet-ww2-light-machine-guns.html">
+
+                        <span data-lang="en">
+                            Light Machine Gun Collection
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            轻机枪合集
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Коллекция ручных пулемётов
+                        </span>
+
+                    </a>
+
+                    <!-- Bolt-Action Rifles -->
+
+                    <a class="archive-period"
+                       href="soviet-ww2-bolt-action-rifles.html">
+
+                        <span data-lang="en">
+                            Bolt-Action Rifle Collection
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            栓动步枪合集
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Коллекция винтовок с
+                            продольно-скользящим затвором
+                        </span>
+
+                    </a>
+
+                    <!-- Self-Loading Rifles -->
+
+                    <a class="archive-period"
+                       href="soviet-ww2-self-loading-rifles.html">
+
+                        <span data-lang="en">
+                            Self-Loading Rifle Collection
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            半自动步枪合集
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Коллекция самозарядных винтовок
+                        </span>
+
+                    </a>
+
+                    <!-- Anti-Tank Equipment -->
+
+                    <a class="archive-period"
+                       href="soviet-ww2-anti-tank-equipment.html">
+
+                        <span data-lang="en">
+                            Anti-Tank Equipment Collection
+                        </span>
+
+                        <span data-lang="zh" style="display:none;">
+                            反坦克器材合集
+                        </span>
+
+                        <span data-lang="ru" style="display:none;">
+                            Коллекция противотанковых средств
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- ==========================================
+     SITE FOOTER
+     ========================================== -->
+
+<footer class="site-footer">
+    <div class="footer-content">
+        © OKB-91 — SOVIET & EASTERN BLOC ARCHIVE
+    </div>
+</footer>
+
+<script src="/script.js"></script>
 
 </body>
 </html>
