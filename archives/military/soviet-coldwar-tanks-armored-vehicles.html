@@ -1,122 +1,396 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Soviet Cold War Tanks and Armored Vehicles - OKB-91</title>
-    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Soviet Cold War Tanks and Armored Vehicles | OKB-91</title>
+
+    <link rel="stylesheet" href="../../style-v2.css">
+
+    <style>
+        /* ==========================================
+           OKB-91 — Soviet Cold War Armored Vehicles
+           ========================================== */
+
+        .cw-nav {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 22px 24px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 28px;
+            box-sizing: border-box;
+            border-bottom: 2px solid #c9a227;
+        }
+
+        .cw-nav a {
+            color: #ff3838;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .cw-nav a:hover,
+        .cw-nav a.active {
+            color: #ffd700;
+            text-decoration: underline;
+        }
+
+        .cw-language {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .cw-language button {
+            cursor: pointer;
+            padding: 4px 8px;
+        }
+
+        .cw-page {
+            max-width: 1120px;
+            margin: 32px auto 80px;
+            padding: 0 24px;
+            box-sizing: border-box;
+        }
+
+        .cw-breadcrumb {
+            margin-bottom: 26px;
+            font-size: 14px;
+            color: #c0cbd0;
+        }
+
+        .cw-breadcrumb a {
+            color: #e2bd39;
+            text-decoration: none;
+        }
+
+        .cw-breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .cw-heading {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            padding: 28px;
+            border: 1px solid #a88b27;
+            background: rgba(8, 26, 35, 0.65);
+            margin-bottom: 32px;
+        }
+
+        .cw-icon {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .cw-heading h1 {
+            color: #ffd700;
+            font-size: 28px;
+            line-height: 1.4;
+            margin: 0 0 14px;
+        }
+
+        .cw-heading p {
+            color: #e1e7e9;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        .cw-section-title {
+            color: #ffd700;
+            font-size: 23px;
+            margin: 0 0 20px;
+        }
+
+        .cw-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .cw-card {
+            display: flex;
+            align-items: center;
+            min-height: 94px;
+            padding: 22px 24px;
+            border: 1px solid #a88b27;
+            background: rgba(9, 29, 39, 0.78);
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 1.5;
+            box-sizing: border-box;
+            overflow-wrap: anywhere;
+            transition:
+                background 0.2s ease,
+                border-color 0.2s ease,
+                transform 0.2s ease;
+        }
+
+        .cw-card:hover {
+            background: rgba(255, 215, 0, 0.08);
+            border-color: #ffd700;
+            transform: translateY(-2px);
+        }
+
+        .cw-card:focus-visible {
+            outline: 2px solid #ffd700;
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 900px) {
+            .cw-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 650px) {
+            .cw-nav {
+                gap: 16px;
+                padding: 18px 16px;
+            }
+
+            .cw-page {
+                padding: 0 16px;
+                margin-top: 24px;
+            }
+
+            .cw-heading {
+                flex-direction: column;
+                text-align: center;
+                padding: 22px;
+            }
+
+            .cw-icon {
+                width: 150px;
+                height: 150px;
+            }
+
+            .cw-heading h1 {
+                font-size: 24px;
+            }
+
+            .cw-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cw-card {
+                min-height: 76px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="nav">
-    <a href="/index.html">Home</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/archives/main-archives.html" class="active">Archives</a>
-    <a href="/about.html">About</a>
+    <!-- Navigation -->
+    <nav class="cw-nav">
 
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('ru')">RU</button>
-</div>
+        <a href="/index.html">Home</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/archives/main-archives.html" class="active">Archives</a>
+        <a href="/about.html">About</a>
 
-<div class="project">
+        <div class="cw-language">
+            <button type="button" onclick="setLang('en')">EN</button>
+            <button type="button" onclick="setLang('zh')">中文</button>
+            <button type="button" onclick="setLang('ru')">RU</button>
+        </div>
 
-    <h2>
-        <span data-lang="en">Soviet Cold War Tanks and Armored Vehicles</span>
-        <span data-lang="zh" style="display:none;">冷战时期苏联坦克和装甲车</span>
-        <span data-lang="ru" style="display:none;">Советские танки и бронетехника периода холодной войны</span>
-    </h2>
+    </nav>
 
-    <p data-lang="en">
-        Tanks, armored vehicles, infantry fighting vehicles, personnel carriers, self-propelled artillery, and special armored systems of the Soviet Ground Forces during the Cold War.
-    </p>
+    <main class="cw-page">
 
-    <p data-lang="zh" style="display:none;">
-        冷战时期苏联武装力量陆军的坦克、装甲车辆、步兵战车、装甲运兵车、自行火炮与特种装甲装备档案。
-    </p>
+        <!-- Breadcrumb -->
+        <div class="cw-breadcrumb">
 
-    <p data-lang="ru" style="display:none;">
-        Архивы танков, бронетехники, боевых машин пехоты, бронетранспортёров, самоходной артиллерии и специальных бронированных систем Сухопутных войск СССР периода холодной войны.
-    </p>
-
-    <ul>
-
-        <li>
-            <a href="/archives/military/soviet-coldwar-main-battle-tanks.html">
-                <span data-lang="en">Main Battle Tanks</span>
-                <span data-lang="zh" style="display:none;">主战坦克</span>
-                <span data-lang="ru" style="display:none;">Основные боевые танки</span>
+            <a href="/archives/main-archives.html">
+                <span data-lang="en">Archives</span>
+                <span data-lang="zh" style="display:none;">档案馆</span>
+                <span data-lang="ru" style="display:none;">Архив</span>
             </a>
-        </li>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-medium-tanks.html">
-                <span data-lang="en">Medium Tanks</span>
-                <span data-lang="zh" style="display:none;">中型坦克</span>
-                <span data-lang="ru" style="display:none;">Средние танки</span>
-            </a>
-        </li>
+            <span> / </span>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-heavy-tanks.html">
-                <span data-lang="en">Heavy Tanks</span>
-                <span data-lang="zh" style="display:none;">重型坦克</span>
-                <span data-lang="ru" style="display:none;">Тяжёлые танки</span>
-            </a>
-        </li>
+            <span data-lang="en">
+                Soviet Cold War Armored Vehicles
+            </span>
+            <span data-lang="zh" style="display:none;">
+                苏联冷战时期装甲车辆
+            </span>
+            <span data-lang="ru" style="display:none;">
+                Советская бронетехника холодной войны
+            </span>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-light-tanks.html">
-                <span data-lang="en">Light Tanks</span>
-                <span data-lang="zh" style="display:none;">轻型坦克</span>
-                <span data-lang="ru" style="display:none;">Лёгкие танки</span>
-            </a>
-        </li>
+        </div>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-infantry-fighting-vehicles.html">
-                <span data-lang="en">Infantry Fighting Vehicles</span>
-                <span data-lang="zh" style="display:none;">步兵战车</span>
-                <span data-lang="ru" style="display:none;">Боевые машины пехоты</span>
-            </a>
-        </li>
+        <!-- Heading -->
+        <section class="cw-heading">
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-armored-personnel-carriers.html">
-                <span data-lang="en">Armored Personnel Carriers</span>
-                <span data-lang="zh" style="display:none;">装甲运兵车</span>
-                <span data-lang="ru" style="display:none;">Бронетранспортёры</span>
-            </a>
-        </li>
+            <img
+                src="/images/icons/soviet-coldwar-armored-vehicles.svg"
+                alt="Soviet Cold War Armored Vehicles Emblem"
+                class="cw-icon"
+                width="180"
+                height="180"
+            >
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-armored-reconnaissance-vehicles.html">
-                <span data-lang="en">Armored Reconnaissance Vehicles</span>
-                <span data-lang="zh" style="display:none;">装甲侦察车辆</span>
-                <span data-lang="ru" style="display:none;">Бронированные разведывательные машины</span>
-            </a>
-        </li>
+            <div>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-self-propelled-artillery.html">
-                <span data-lang="en">Self-Propelled Artillery</span>
-                <span data-lang="zh" style="display:none;">自行火炮</span>
-                <span data-lang="ru" style="display:none;">Самоходная артиллерия</span>
-            </a>
-        </li>
+                <h1>
+                    <span data-lang="en">
+                        Soviet Cold War Tanks and Armored Vehicles
+                    </span>
+                    <span data-lang="zh" style="display:none;">
+                        冷战时期苏联坦克和装甲车
+                    </span>
+                    <span data-lang="ru" style="display:none;">
+                        Советские танки и бронетехника
+                        периода холодной войны
+                    </span>
+                </h1>
 
-        <li>
-            <a href="/archives/military/soviet-coldwar-special-purpose-vehicles.html">
-                <span data-lang="en">Special Purpose Vehicles</span>
-                <span data-lang="zh" style="display:none;">特种装备</span>
-                <span data-lang="ru" style="display:none;">Машины специального назначения</span>
-            </a>
-        </li>
+                <p data-lang="en">
+                    Tanks, armored vehicles, infantry fighting
+                    vehicles, personnel carriers, self-propelled
+                    artillery, and special armored systems of
+                    the Soviet Ground Forces during the Cold War.
+                </p>
 
-    </ul>
+                <p data-lang="zh" style="display:none;">
+                    冷战时期苏联武装力量陆军的坦克、装甲车辆、
+                    步兵战车、装甲运兵车、自行火炮与特种装甲装备档案。
+                </p>
 
-</div>
+                <p data-lang="ru" style="display:none;">
+                    Архивы танков, бронетехники, боевых машин
+                    пехоты, бронетранспортёров, самоходной
+                    артиллерии и специальных бронированных
+                    систем Сухопутных войск СССР периода
+                    холодной войны.
+                </p>
 
-<script src="/script.js"></script>
+            </div>
+
+        </section>
+
+        <!-- Categories -->
+        <section class="cw-categories">
+
+            <h2 class="cw-section-title">
+                <span data-lang="en">Vehicle Categories</span>
+                <span data-lang="zh" style="display:none;">车辆分类</span>
+                <span data-lang="ru" style="display:none;">
+                    Категории техники
+                </span>
+            </h2>
+
+            <div class="cw-grid">
+
+                <!-- Main Battle Tanks -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-main-battle-tanks.html">
+                    <span data-lang="en">Main Battle Tanks</span>
+                    <span data-lang="zh" style="display:none;">主战坦克</span>
+                    <span data-lang="ru" style="display:none;">
+                        Основные боевые танки
+                    </span>
+                </a>
+
+                <!-- Medium Tanks -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-medium-tanks.html">
+                    <span data-lang="en">Medium Tanks</span>
+                    <span data-lang="zh" style="display:none;">中型坦克</span>
+                    <span data-lang="ru" style="display:none;">
+                        Средние танки
+                    </span>
+                </a>
+
+                <!-- Heavy Tanks -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-heavy-tanks.html">
+                    <span data-lang="en">Heavy Tanks</span>
+                    <span data-lang="zh" style="display:none;">重型坦克</span>
+                    <span data-lang="ru" style="display:none;">
+                        Тяжёлые танки
+                    </span>
+                </a>
+
+                <!-- Light Tanks -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-light-tanks.html">
+                    <span data-lang="en">Light Tanks</span>
+                    <span data-lang="zh" style="display:none;">轻型坦克</span>
+                    <span data-lang="ru" style="display:none;">
+                        Лёгкие танки
+                    </span>
+                </a>
+
+                <!-- Infantry Fighting Vehicles -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-infantry-fighting-vehicles.html">
+                    <span data-lang="en">Infantry Fighting Vehicles</span>
+                    <span data-lang="zh" style="display:none;">步兵战车</span>
+                    <span data-lang="ru" style="display:none;">
+                        Боевые машины пехоты
+                    </span>
+                </a>
+
+                <!-- Armored Personnel Carriers -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-armored-personnel-carriers.html">
+                    <span data-lang="en">Armored Personnel Carriers</span>
+                    <span data-lang="zh" style="display:none;">装甲运兵车</span>
+                    <span data-lang="ru" style="display:none;">
+                        Бронетранспортёры
+                    </span>
+                </a>
+
+                <!-- Armored Reconnaissance Vehicles -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-armored-reconnaissance-vehicles.html">
+                    <span data-lang="en">Armored Reconnaissance Vehicles</span>
+                    <span data-lang="zh" style="display:none;">装甲侦察车辆</span>
+                    <span data-lang="ru" style="display:none;">
+                        Бронированные разведывательные машины
+                    </span>
+                </a>
+
+                <!-- Self-Propelled Artillery -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-self-propelled-artillery.html">
+                    <span data-lang="en">Self-Propelled Artillery</span>
+                    <span data-lang="zh" style="display:none;">自行火炮</span>
+                    <span data-lang="ru" style="display:none;">
+                        Самоходная артиллерия
+                    </span>
+                </a>
+
+                <!-- Special Purpose Vehicles -->
+                <a class="cw-card"
+                   href="/archives/military/soviet-coldwar-special-purpose-vehicles.html">
+                    <span data-lang="en">Special Purpose Vehicles</span>
+                    <span data-lang="zh" style="display:none;">特种装备</span>
+                    <span data-lang="ru" style="display:none;">
+                        Машины специального назначения
+                    </span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="/script.js"></script>
 
 </body>
 </html>
